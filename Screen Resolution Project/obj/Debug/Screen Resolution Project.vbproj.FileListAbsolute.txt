@@ -1,0 +1,12 @@
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources

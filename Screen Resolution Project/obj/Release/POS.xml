@@ -1,0 +1,645 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+POS
+</name>
+</assembly>
+<members>
+<member name="F:POS.NativeMethods.DeviceCap.DRIVERVERSION">
+	<summary>
+ Device driver version
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.TECHNOLOGY">
+	<summary>
+ Device classification
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.HORZSIZE">
+	<summary>
+ Horizontal size in millimeters
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.VERTSIZE">
+	<summary>
+ Vertical size in millimeters
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.HORZRES">
+	<summary>
+ Horizontal width in pixels
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.VERTRES">
+	<summary>
+ Vertical height in pixels
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.BITSPIXEL">
+	<summary>
+ Number of bits per pixel
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.PLANES">
+	<summary>
+ Number of planes
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.NUMBRUSHES">
+	<summary>
+ Number of brushes the device has
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.NUMPENS">
+	<summary>
+ Number of pens the device has
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.NUMMARKERS">
+	<summary>
+ Number of markers the device has
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.NUMFONTS">
+	<summary>
+ Number of fonts the device has
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.NUMCOLORS">
+	<summary>
+ Number of colors the device supports
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.PDEVICESIZE">
+	<summary>
+ Size required for device descriptor
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.CURVECAPS">
+	<summary>
+ Curve capabilities
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.LINECAPS">
+	<summary>
+ Line capabilities
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.POLYGONALCAPS">
+	<summary>
+ Polygonal capabilities
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.TEXTCAPS">
+	<summary>
+ Text capabilities
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.CLIPCAPS">
+	<summary>
+ Clipping capabilities
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.RASTERCAPS">
+	<summary>
+ Bitblt capabilities
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.ASPECTX">
+	<summary>
+ Length of the X leg
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.ASPECTY">
+	<summary>
+ Length of the Y leg
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.ASPECTXY">
+	<summary>
+ Length of the hypotenuse
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.SHADEBLENDCAPS">
+	<summary>
+ Shading and Blending caps
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.LOGPIXELSX">
+	<summary>
+ Logical pixels inch in X
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.LOGPIXELSY">
+	<summary>
+ Logical pixels inch in Y
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.SIZEPALETTE">
+	<summary>
+ Number of entries in physical palette
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.NUMRESERVED">
+	<summary>
+ Number of reserved entries in palette
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.COLORRES">
+	<summary>
+ Actual color resolution
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.PHYSICALWIDTH">
+	<summary>
+ Physical Width in device units
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.PHYSICALHEIGHT">
+	<summary>
+ Physical Height in device units
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.PHYSICALOFFSETX">
+	<summary>
+ Physical Printable Area x margin
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.PHYSICALOFFSETY">
+	<summary>
+ Physical Printable Area y margin
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.SCALINGFACTORX">
+	<summary>
+ Scaling factor x
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.SCALINGFACTORY">
+	<summary>
+ Scaling factor y
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.VREFRESH">
+	<summary>
+ Current vertical refresh rate of the display device (for displays only) in Hz
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.DESKTOPVERTRES">
+	<summary>
+ Horizontal width of entire desktop in pixels
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.DESKTOPHORZRES">
+	<summary>
+ Vertical height of entire desktop in pixels
+ </summary>
+</member><member name="F:POS.NativeMethods.DeviceCap.BLTALIGNMENT">
+	<summary>
+ Preferred blt alignment
+ </summary>
+</member><member name="T:POS.NativeMethods.DeviceCap">
+	<summary>
+ An enumeration of GetDeviceCaps parameters.
+ </summary>
+</member><member name="M:POS.NativeMethods.CreateDC(System.String,System.String,System.String,System.IntPtr)">
+	<summary>
+ The CreateDC function creates a device context (DC) for a device 
+ using the specified name.
+ </summary>
+	<param name="lpszDriver">Pointer to a null-terminated character
+ string that specifies either DISPLAY or the name of a specific 
+ display device or the name of a print provider, which is usually WINSPOOL.</param>
+	<param name="lpszDevice">Pointer to a null-terminated character string 
+ that specifies the name of the specific output device being used, 
+ as shown by the Print Manager (for example, Epson FX-80). It is not 
+ the printer model name. The lpszDevice parameter must be used.</param>
+	<param name="lpszOutput">This parameter is ignored and should be set
+ to NULL. It is provided only for compatibility with 16-bit Windows.</param>
+	<param name="lpInitData">Pointer to a DEVMODE structure containing 
+ device-specific initialization data for the device driver. The 
+ DocumentProperties function retrieves this structure filled in for
+ a specified device. The lpInitData parameter must be NULL if the
+ device driver is to use the default initialization (if any) specified
+ by the user.</param>
+	<returns>If the function succeeds, the return value is the handle
+ to a DC for the specified device. If the function fails, the 
+ return value is NULL. The function will return NULL for a DEVMODE
+ structure other than the current DEVMODE.</returns>
+</member><member name="M:POS.NativeMethods.DeleteDC(System.IntPtr)">
+	<summary>
+ The DeleteDC function deletes the specified device context (DC).
+ </summary>
+	<param name="hdc">Handle to the device context.</param>
+	<returns>If the function succeeds, the return value is nonzero. 
+ If the function fails, the return value is zero.</returns>
+</member><member name="M:POS.NativeMethods.ClosePrinter(System.IntPtr)">
+	<summary>
+ Closes the specified printer object.
+ </summary>
+	<param name="hPrinter">Handle to the printer object to be closed.
+ This handle is returned by the OpenPrinter or AddPrinter function.</param>
+	<returns>If the function succeeds, the return value is a nonzero value.
+ If the function fails, the return value is zero</returns>
+</member><member name="M:POS.NativeMethods.StartDoc(System.IntPtr,POS.NativeMethods.DOCINFO)">
+	<summary>
+ The StartDoc function starts a print job.
+ </summary>
+	<param name="hdc">Handle to the device context for the print job.</param>
+	<param name="lpdi">Pointer to a DOCINFO structure containing the name 
+ of the document file and the name of the output file.</param>
+	<returns>If the function succeeds, the return value is greater than
+ zero. This value is the print job identifier for the document.</returns>
+</member><member name="M:POS.NativeMethods.EndDoc(System.IntPtr)">
+	<summary>
+ The EndDoc function ends a print job.
+ </summary>
+	<param name="hdc">Handle to the device context for the print job.</param>
+	<returns>If the function succeeds, the return value is greater than zero.
+ If the function fails, the return value is less than or equal
+ to zero.</returns>
+</member><member name="M:POS.NativeMethods.GetDeviceCaps(System.IntPtr,POS.NativeMethods.DeviceCap)">
+	<summary>
+ The GetDeviceCaps function retrieves device-specific information 
+ for the specified device.
+ </summary>
+	<param name="hdc">Handle to the DC.</param>
+	<param name="capindex">Specifies the item to return.</param>
+	<returns>The return value specifies the value of the desired item.</returns>
+</member><member name="M:POS.NativeMethods.StartPage(System.IntPtr)">
+	<summary>
+ The StartPage function prepares the printer driver to accept data.
+ </summary>
+	<param name="hdc">Handle to the device context for the print job.</param>
+	<returns>If the function succeeds, the return value is greater than zero.
+ If the function fails, the return value is less than or equal to zero.</returns>
+</member><member name="M:POS.NativeMethods.EndPage(System.IntPtr)">
+	<summary>
+ The EndPage function notifies the device that the application has
+ finished writing to a page. This function is typically used to 
+ direct the device driver to advance to a new page.
+ </summary>
+	<param name="hdc">Handle to the device context for the print job.</param>
+	<returns>If the function succeeds, the return value is greater than zero.
+ If the function fails, the return value is less than or equal to zero.</returns>
+</member><member name="M:POS.NativeMethods.StartDocPrinter(System.IntPtr,System.Int32,POS.NativeMethods.DOC_INFO_1)">
+	<summary>
+ The StartDocPrinter function notifies the print spooler
+ that a document is to be spooled for printing.
+ </summary>
+	<param name="hPrinter">Handle to the printer. Use the OpenPrinter or
+ AddPrinter function to retrieve a printer handle.</param>
+	<param name="level">Specifies the version of the structure to 
+ which pDocInfo points. On WIndows NT/2000/XP, the value must be 1.</param>
+	<param name="di">Pointer to a structure that describes the document to print.</param>
+	<returns>If the function succeeds, the return value identifies the print job.
+ If the function fails, the return value is zero. </returns>
+</member><member name="F:POS.NativeMethods.DOCINFO.cbSize">
+	<summary>
+ The size, in bytes, of the structure.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOCINFO.lpszDocName">
+	<summary>
+ Pointer to a null-terminated string that specifies the name
+ of the document.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOCINFO.lpszOutput">
+	<summary>
+ Pointer to a null-terminated string that specifies the name of 
+ an output file. If this pointer is NULL, the output will be 
+ sent to the device identified by the device context handle that 
+ was passed to the StartDoc function.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOCINFO.lpszDatatype">
+	<summary>
+ Pointer to a null-terminated string that specifies the type of 
+ data used to record the print job. The legal values for this 
+ member can be found by calling EnumPrintProcessorDatatypes and 
+ can include such values as raw, emf, or XPS_PASS. This member 
+ can be NULL. Note that the requested data type might be ignored.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOCINFO.fwType">
+	<summary>
+ Specifies additional information about the print job. This 
+ member must be zero or one of the following values.
+ </summary>
+</member><member name="T:POS.NativeMethods.DOCINFO">
+	<summary>
+ The DOCINFO structure contains the input and output file names and 
+ other information used by the StartDoc function.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOC_INFO_1.pDocName">
+	<summary>
+ Pointer to a null-terminated string that specifies the name of
+ the document.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOC_INFO_1.pOutputFile">
+	<summary>
+ Pointer to a null-terminated string that specifies the name of
+ an output file. To print to a printer, set this to NULL.
+ </summary>
+</member><member name="F:POS.NativeMethods.DOC_INFO_1.pDataType">
+	<summary>
+ Pointer to a null-terminated string that identifies the type 
+ of data used to record the document.
+ </summary>
+</member><member name="T:POS.NativeMethods.DOC_INFO_1">
+	<summary>
+ The DOC_INFO_1 structure describes a document that will be printed.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.Nul">
+	<summary>
+ Usually indicates the end of a string.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.FormFeed">
+	<summary>
+ Meant to be used for printers. When receiving this code the 
+ printer moves to the next sheet of paper.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.Escape">
+	<summary>
+ Starts an extended sequence of control codes.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.Newline">
+	<summary>
+ Advances to the next line.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.GroupSeparator">
+	<summary>
+ Defined to separate tables or different sets of data in a serial
+ data storage system.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.HorizontalTab">
+	<summary>
+ A horizontal tab.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.CarriageReturn">
+	<summary>
+ Returns the carriage to the start of the line.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.Cancel">
+	<summary>
+ Cancels the operation.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.DataLinkEscape">
+	<summary>
+ Indicates that control characters present in the stream should
+ be passed through as transmitted and not interpreted as control
+ characters.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.EndOfTransmission">
+	<summary>
+ Signals the end of a transmission.
+ </summary>
+</member><member name="F:POS.AsciiControlChars.FileSeparator">
+	<summary>
+ In serial storage, signals the separation of two files.
+ </summary>
+</member><member name="P:POS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:POS.My.Resources.Resources._3_Gray_Computer_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.accept">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.accept_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Accounts_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Action_add_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Add_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.application_home_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.arrow_refresh_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.basket_put_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.bin_black_full_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.bin_red_full_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.blue_edit_pencil">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.book_delete_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.cancel_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.clientlogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.clientlogo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.clientlogo12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Customer_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.dashboard_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Delete_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.deletes_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.edit_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Exit_DI">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Exit_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.expand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Export_To_File_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.f1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.F1_KEY">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.F2_KEY">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.F3_KEY">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.File_Delete_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Help_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.home1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Inventory_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.invoice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Invoice_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.invoice2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.left">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.LOGINSCREEN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.masters">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.pencil_green">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Pencil_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.pencil_icon_green">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Pencil_icon_white">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Printer_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.recycle_bin_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.recycle_full">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Reports_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Reports_ICON1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.right">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.sales">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.sales2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.sales21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.salesreturn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Save_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.save_icon16x">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.secrecy_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Settings_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.shop_cart_add_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Size_48X48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Text_Edit_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Trans_Loader">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.transaction">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:POS.My.Resources.Resources.Transaction_ICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:POS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

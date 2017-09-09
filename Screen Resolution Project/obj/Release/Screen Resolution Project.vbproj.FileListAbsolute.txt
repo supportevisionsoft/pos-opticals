@@ -1,0 +1,12 @@
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Release\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Release\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Release\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Release\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen_Resolution_Project.Form1.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen_Resolution_Project.MDIParent1.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen Resolution Project.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Release\Screen Resolution Project.pdb

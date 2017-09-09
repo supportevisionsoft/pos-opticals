@@ -1,0 +1,1383 @@
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\bin\Debug\PdfSharp.dll
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\Screen Resolution Project\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Settings.resources
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Settings.resources
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS Resolution\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Settings.resources
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\NAN\POS Resolution\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\Invoice BackUP\POS Aljaber\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS_Aljaber_Settings_Resol_Final\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\NAN\16-07-2013 POS\POS FINAL\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\bin\Debug\PdfSharp.dll
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS FINAL\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\bin\Debug\PdfSharp.dll
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS_salesman\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\NAN_TEST\POS_salesman_UPDATED\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\bin\Debug\PdfSharp.dll
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS_09\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\NANDHINI\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\NANDHINI\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\NANDHINI\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\NANDHINI\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\PdfSharp.dll
+C:\Documents and Settings\Perf\Desktop\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.AdminSettings.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\pos_09 on 10.0.0.44\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.CounterSettings.resources
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.AdminSettings.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.CounterSettings.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmEndofthedayrep.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe.config
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\Screen Resolution Project.exe
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\Screen Resolution Project.pdb
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\Screen Resolution Project.xml
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.AdminSettings.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.CounterSettings.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmClientLogin.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Home.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.Resources.resources
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\Perf\Desktop\New Folder\POS_AdminSettings_23\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmGVRep.resources
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\office.dll
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\POS_AdminSettings\Screen Resolution Project\bin\Debug\office.xml
+D:\POS_AdminSettings\Screen Resolution Project\obj\Debug\Screen_Resolution_Project.frmGVRep.resources
+F:\POS\Screen Resolution Project\bin\Debug\POS.exe.config
+F:\POS\Screen Resolution Project\obj\Debug\POS.exe
+F:\POS\Screen Resolution Project\obj\Debug\POS.xml
+F:\POS\Screen Resolution Project\obj\Debug\POS.pdb
+F:\POS\Screen Resolution Project\bin\Debug\POS.exe
+F:\POS\Screen Resolution Project\bin\Debug\POS.pdb
+F:\POS\Screen Resolution Project\bin\Debug\POS.xml
+F:\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\POS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\POS\Screen Resolution Project\bin\Debug\office.dll
+F:\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+F:\POS\Screen Resolution Project\bin\Debug\office.xml
+F:\POS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+F:\POS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.frmClientLogin.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.Home.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+F:\POS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+F:\POS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.pdb
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.dll
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmClientLogin.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.exe
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.pdb
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.exe
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.xml
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.pdb
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.pdb
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.xml
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.dll
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.xml
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmClientLogin.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.exe
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.pdb
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.exe
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.pdb
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\POS.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.dll
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\bin\Debug\office.xml
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\Direct Invoice POS\POS_TRANSCOMMIT_1oct\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_TRANSCOMMIT\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Documents and Settings\binitha\Desktop\POS_Updated\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\binitha\Desktop\POS_Updated\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\binitha\Desktop\POS_Updated\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\binitha\Desktop\POS_Updated\Screen Resolution Project\obj\Debug\POS.pdb
+D:\POS\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\POS\Screen Resolution Project\bin\Debug\POS.exe
+D:\POS\Screen Resolution Project\bin\Debug\POS.pdb
+D:\POS\Screen Resolution Project\bin\Debug\POS.xml
+D:\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\POS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\POS\Screen Resolution Project\bin\Debug\office.dll
+D:\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\POS\Screen Resolution Project\bin\Debug\office.xml
+D:\POS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\POS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\POS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\POS\Screen Resolution Project\obj\Debug\POS.exe
+D:\POS\Screen Resolution Project\obj\Debug\POS.xml
+D:\POS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS_Oct18-2013\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Documents and Settings\binitha\Desktop\POS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Documents and Settings\binitha\Desktop\POS_ReportChanges\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Perf\Desktop\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+D:\POS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+D:\TestPOS Backups\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.exe.config
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.exe
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.xml
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.pdb
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.exe
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.pdb
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.xml
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\office.dll
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\office.xml
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Home.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Resources.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+\\10.0.0.44\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.exe.config
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.exe
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.xml
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.pdb
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.exe
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.pdb
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\POS.xml
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\office.dll
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\bin\Debug\office.xml
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Home.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.Resources.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+D:\POS_7July14\LICENCE PART\POS_JOPTICS_25July2014_With Licensepart\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\POS.exe
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\POS.xml
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\office.dll
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\bin\Debug\office.xml
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.exe
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.xml
+C:\Documents and Settings\Kohila\Desktop\POS_JOPTICS_29July2014_With Added expense\Screen Resolution Project\obj\Debug\POS.pdb
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\Oracle.DataAccess.dll
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\TEST\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\TEST\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.manifest
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.application
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\Oracle.DataAccess.dll
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Sources_24Sept2014\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.manifest
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.application
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\Oracle.DataAccess.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.manifest
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.application
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Oracle.DataAccess.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\Sources_ESHACK_PLAYING\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.manifest
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.application
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Oracle.DataAccess.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Sources_ORIGINAL_Workingone\POS_JOPTICS_v4.4.14\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SlipDrawer.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\POS_FINAL Source Hari\Dynamic Reports Source\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.config
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe.manifest
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.application
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.exe
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.pdb
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\POS.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\Oracle.DataAccess.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Debug\office.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SlipDrawer.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\POS_FINAL Source Hari\WorkingSource\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SlipDrawer.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+F:\Aljaber Projects\POS_JOPTICS_v5.2.15\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Web.XmlTransform.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Newtonsoft.Json.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Client.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Common.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Configuration.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.ContentModel.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Core.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Frameworks.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.Types.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Repositories.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.RuntimeModel.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Versioning.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\Newtonsoft.Json.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Client.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Common.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Configuration.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.ContentModel.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Frameworks.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.Types.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Repositories.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.RuntimeModel.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Versioning.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SlipDrawer.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Web.XmlTransform.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Newtonsoft.Json.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Client.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Common.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Configuration.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.ContentModel.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Core.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Frameworks.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.Types.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Repositories.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.RuntimeModel.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Versioning.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\Newtonsoft.Json.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Client.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Common.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Configuration.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.ContentModel.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Frameworks.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.Types.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Repositories.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.RuntimeModel.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Versioning.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SlipDrawer.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb
+C:\AljaberFinalProjects2016-SourceCodes\POS_JOPTICS_5.7.19\POS_JOPTICS_03May2017_10AM\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.config
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe.manifest
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.application
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.exe
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.pdb
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\POS.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Web.XmlTransform.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Newtonsoft.Json.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Client.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Common.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Configuration.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.ContentModel.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Core.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Frameworks.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.Types.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Repositories.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.RuntimeModel.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Versioning.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Oracle.DataAccess.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\office.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\Newtonsoft.Json.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Client.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Common.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Configuration.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.ContentModel.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Frameworks.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Packaging.Core.Types.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Repositories.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.RuntimeModel.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\NuGet.Versioning.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\bin\Release\office.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdminSettings.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.AdSelection.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.CounterSettings.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.DailyTransReport.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmEndofthedayrep.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmGVRep.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.frmStockReport.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Patientfrm.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.ReferalReport.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.RoyaltyReport.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsPaymentMaster.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsDenominationMaster.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsSalesmanMaster.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.LoginForm.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsCounterMaster.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SettingsShiftMaster.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SlipDrawer.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.SubHomeForm.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Transactions.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Home.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.Resources.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.TransactionSlip.resources
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe.manifest
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.application
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.exe
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.xml
+C:\Athithyan Applications\POS_JOPTICS\POS_JOPTICS\Screen Resolution Project\obj\Debug\POS.pdb

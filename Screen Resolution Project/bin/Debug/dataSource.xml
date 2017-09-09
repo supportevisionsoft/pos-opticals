@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<sources>
+
+<source name="DirectInvoice">
+	<columns>
+		<column aliasname="RowNumber">rownum</column>
+		<column aliasname="InvoiceNumber">b.invh_no</column>
+		<column aliasname="InvoiceDate">to_char( b.invh_dt,'DD/MM/YYYY')</column>
+		<column aliasname="locn_name">d.ADDR_LINE_1</column>
+		<column aliasname="Location_Address">d.ADDR_LINE_2|| ' ' || d.ADDR_LINE_3</column>
+		<column aliasname="Phone">d.addr_tel</column>
+		<column aliasname="Email">d.addr_email</column>
+		<column aliasname="CustName">case nvl(b.INVH_FLEX_03,0) when '0' then (select cust_name from om_customer where cust_code = b.invh_cust_code) else (select PM_PATIENT_NAME from om_patient_master where PM_CUST_NO = b.INVH_FLEX_03) end</column>
+		<column aliasname="billing_addr">b.invh_BILL_ADDR_LINE_1||' '||b.invh_BILL_ADDR_LINE_2||' '||b.invh_BILL_COUNTRY_CODE</column>
+		<column aliasname="billing_phone">b.INVH_BILL_TEL</column>
+		<column aliasname="billing_email">b.invh_BILL_EMAIL</column>
+		<column aliasname="shipping_addr">b.invh_SHIP_ADDR_LINE_1||' '||b.invh_SHIP_ADDR_LINE_2||' '||b.invh_SHIP_COUNTRY_CODE</column>
+		<column aliasname="ItemCode">a.INVI_ITEM_CODE</column>
+		<column aliasname="ItemDesc">a.INVI_ITEM_DESC</column>
+		<column aliasname="ItmUOM">a.INVI_UOM_CODE</column>
+		<column aliasname="ItmPrice">a.INVI_PL_RATE</column>
+		<column aliasname="ItmQty">a.INVI_QTY</column>
+		<column aliasname="ItmAmt">a.INVI_FC_VAL</column>
+		<column aliasname="disamt">nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0)</column>
+		<column aliasname="expamt">nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0)</column>
+		<column aliasname="salesman">INVH_SM_CODE</column>
+		<column aliasname="pmcustno">INVH_FLEX_03</column>
+	</columns>
+	<sqlquery aliasname="sqlquery">ot_invoice_head b,ot_invoice_item a,om_location c,om_address d where b.invh_sys_id = a.invi_invh_sys_id and b.invh_locn_code = c.locn_code and c.locn_addr_code = d.addr_code</sqlquery>
+	<filtervalue aliasname="InvoiceNumber">b.invh_no</filtervalue>
+</source>
+<source name="SalesOrder">
+	<columns>
+		<column aliasname="RowNumber">rownum</column>
+		<column aliasname="InvoiceNumber">invh_no</column>
+		<column aliasname="InvoiceDate">invh_date</column>
+	</columns>
+	<sqlquery aliasname="sqlquery"></sqlquery>
+	<filtervalue liasname="InvoiceNumber">invh_no</filtervalue>
+</source>
+<source name="SalesInvoice">
+	<columns>
+		<column aliasname="RowNumber">rownum</column>
+		<column aliasname="InvoiceNumber">invh_no</column>
+		<column aliasname="InvoiceDate">invh_date</column>
+	</columns>
+	<sqlquery aliasname="sqlquery"></sqlquery>
+	<filtervalue liasname="InvoiceNumber">invh_no</filtervalue>
+</source>
+<source name="SalesReturn">
+	<columns>
+		<column aliasname="RowNumber">rownum</column>
+		<column aliasname="InvoiceNumber">invh_no</column>
+		<column aliasname="InvoiceDate">invh_date</column>
+	</columns>
+	<sqlquery aliasname="sqlquery"></sqlquery>
+	<filtervalue liasname="InvoiceNumber">invh_no</filtervalue>
+</source>
+<source name="HoldInvoice">
+	<columns>
+		<column aliasname="RowNumber">rownum</column>
+		<column aliasname="InvoiceNumber">invh_no</column>
+		<column aliasname="InvoiceDate">invh_date</column>
+	</columns>
+	<sqlquery aliasname="sqlquery"></sqlquery>
+	<filtervalue liasname="InvoiceNumber">invh_no</filtervalue>
+</source>
+
+</sources>
