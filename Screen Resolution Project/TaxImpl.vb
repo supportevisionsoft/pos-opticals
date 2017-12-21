@@ -6,7 +6,9 @@
         db = dbConnection
     End Sub
 
+    Public Function calculateTaxValueofItem(ByVal itemCode As String, ByVal itemPrice As Double, ByVal locnCode As String, ByVal transactionCode As String, ByVal taxCode As String, ByVal taxPercentage As Double) As Double
         Dim taxValue As Double = 0
+        'Dim taxPercentage As Double = getTaxPercentageofItem(itemCode, locnCode, transactionCode, taxCode)
 
         taxValue = itemPrice - ((itemPrice / (100 + taxPercentage)) * 100)
 
