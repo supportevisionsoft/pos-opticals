@@ -92,6 +92,8 @@ Public Class TransactionSlip
     Private lblINVExpTotal_VALUE As New List(Of Label)
     Private lblINVDisTotal_KEY As New List(Of Label)
     Private lblINVDisTotal_VALUE As New List(Of Label)
+    Private lblINVTaxTotal_KEY As New List(Of Label)
+    Private lblINVTaxTotal_VALUE As New List(Of Label)
 
     Private lblRptSNOHeader As New List(Of Label)
     Private lblRptItemCodeHeader As New List(Of Label)
@@ -127,6 +129,8 @@ Public Class TransactionSlip
     Dim totalDiscountamt As Double = 0
     Dim totalExpenseamt As Double = 0
     Dim subtotalamt As Double = 0
+    Dim totalTaxAmount As Double = 0
+    Dim taxPercentageValue As String = ""
 
     Private currentPage As String = ""
     Private currentItemPanel As String = ""
@@ -948,7 +952,9 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.INVI_QTY as ItmQty,"
             stQuery = stQuery + " a.INVI_FC_VAL as ItmAmt,"
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
-            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress "
+            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
+            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
+            stQuery = stQuery + " nvl((select ITED_TED_RATE from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxpercentage "
             stQuery = stQuery + " from "
             stQuery = stQuery + " ot_invoice_head b,ot_invoice_item a,om_location c,om_address d"
             stQuery = stQuery + " where b.invh_no = " & TXN_NO & " and"
@@ -1140,7 +1146,8 @@ Public Class TransactionSlip
                 totalDiscountamt = totalDiscountamt + Convert.ToDouble(row.Item(18).ToString)
                 totalExpenseamt = totalExpenseamt + Convert.ToDouble(row.Item(19).ToString)
                 subtotalamt = subtotalamt + Convert.ToDouble(row.Item(17).ToString)
-
+                totalTaxAmount = totalTaxAmount + Convert.ToDouble(row.Item(25).ToString)
+                taxPercentageValue = row.Item(26).ToString
                 itemlines = itemlines + 1
                 rowcount = rowcount - 1
                 i = i + 1
@@ -1149,6 +1156,8 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVDisTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalDiscountamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVExpTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalExpenseamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
+            Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
+            Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text = taxPercentageValue & "% " & Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round((subtotalamt + totalExpenseamt) - totalDiscountamt, 3).ToString("0.000")
 
             CreationPageBottom()
@@ -1647,7 +1656,7 @@ Public Class TransactionSlip
         n = pnlItemDetails.Count
         With pnl
             .Location = New Point(130, 312)
-            .Size = New Size(522, 260)
+            .Size = New Size(522, 235)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlItemDetails" & n.ToString
             currentItemPanel = "pnlItemDetails" & n.ToString
@@ -1658,8 +1667,8 @@ Public Class TransactionSlip
         pnl = New Panel
         n = pnlTotalDetails.Count
         With pnl
-            .Location = New Point(130, 571)
-            .Size = New Size(522, 68)
+            .Location = New Point(130, 546)
+            .Size = New Size(522, 93)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlTotalDetails" & n.ToString
         End With
@@ -1784,7 +1793,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVExpTotal_KEY.Count
         With lbl
-            .Location = New Point(305, 42)
+            .Location = New Point(305, 44)
             .Text = "Expense/مصروف  :"
             .Name = "lblINVExpTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
@@ -1797,7 +1806,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVExpTotal_VALUE.Count
         With lbl
-            .Location = New Point(419, 42)
+            .Location = New Point(419, 44)
             .Text = ""
             .Name = "lblINVExpTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
@@ -1806,6 +1815,33 @@ Public Class TransactionSlip
 
         End With
         Me.lblINVExpTotal_VALUE.Add(lbl)
+        Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
+
+        lbl = New Label
+        n = lblINVTaxTotal_KEY.Count
+        With lbl
+            .Location = New Point(21, 62)
+            .Text = "Tax/ضريبة  :"
+            .Name = "lblINVTaxTotal_KEY" & n.ToString
+            .TextAlign = ContentAlignment.MiddleLeft
+            .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
+            .Size = New Size(100, 16)
+        End With
+        Me.lblINVTaxTotal_KEY.Add(lbl)
+        Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
+
+        lbl = New Label
+        n = lblINVTaxTotal_VALUE.Count
+        With lbl
+            .Location = New Point(100, 62)
+            .Text = ""
+            .Name = "lblINVTaxTotal_VALUE" & n.ToString
+            .TextAlign = ContentAlignment.MiddleRight
+            .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
+            .Size = New Size(96, 16)
+
+        End With
+        Me.lblINVTaxTotal_VALUE.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
 
         pnl = New Panel

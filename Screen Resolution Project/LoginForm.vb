@@ -142,18 +142,18 @@ Public Class LoginForm
             End If
 
 
-            Select Case Environment.GetEnvironmentVariable("SessionName").ToUpper.Substring(0, 3)
-                Case "ICA"
-                    'MsgBox(System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process))
-                    POSCounterName = System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process)
-                    POSCounterIPAddress = ""
-                Case "RDP"
-                    POSCounterName = Environment.MachineName
-                    POSCounterIPAddress = GetIPAddress()
-                Case "CON"
-                    POSCounterName = Environment.MachineName
-                    POSCounterIPAddress = GetIPAddress()
-            End Select
+            'Select Case Environment.GetEnvironmentVariable("SessionName").ToUpper.Substring(0, 3)
+            '    Case "ICA"
+            '        'MsgBox(System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process))
+            '        POSCounterName = System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process)
+            '        POSCounterIPAddress = ""
+            '    Case "RDP"
+            '        POSCounterName = Environment.MachineName
+            '        POSCounterIPAddress = GetIPAddress()
+            '    Case "CON"
+            '        POSCounterName = Environment.MachineName
+            '        POSCounterIPAddress = GetIPAddress()
+            'End Select
 
             'Please find this code as hardcoded one. To run dynamically, please comment this line of code '''
 
@@ -161,7 +161,7 @@ Public Class LoginForm
             'POSCounterName = "OPTX2020"
             'POSCounterName = "ITTESTPC"
             'POSCounterName = "WAFIPC"
-            'POSCounterName = "GCITRIX"
+            POSCounterName = "GCITRIX"
             'POSCounterName = "ROBINSONSDFCPC"
             ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 

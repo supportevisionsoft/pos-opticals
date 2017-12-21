@@ -300,6 +300,7 @@
     <Compile Include="SubHomeForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TaxImpl.vb" />
     <Compile Include="Transactions.vb">
       <SubType>Form</SubType>
     </Compile>
