@@ -413,7 +413,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.INVI_QTY as ItmQty,"
             stQuery = stQuery + " a.INVI_FC_VAL as ItmAmt,"
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
-            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno,INVH_REF_NO as refno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress "
+            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno,INVH_REF_NO as refno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
+            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt "
             stQuery = stQuery + " from "
             stQuery = stQuery + " ot_invoice_head b,ot_invoice_item a,om_location c,om_address d"
             stQuery = stQuery + " where b.invh_no = " & TXN_NO & " and"
@@ -602,6 +603,7 @@ Public Class TransactionSlip
                 totalDiscountamt = totalDiscountamt + Convert.ToDouble(row.Item(18).ToString)
                 totalExpenseamt = totalExpenseamt + Convert.ToDouble(row.Item(19).ToString)
                 subtotalamt = subtotalamt + Convert.ToDouble(row.Item(17).ToString)
+                totalTaxAmount = totalTaxAmount + Convert.ToDouble(row.Item(26).ToString)
 
                 itemlines = itemlines + 1
                 rowcount = rowcount - 1
@@ -614,6 +616,7 @@ Public Class TransactionSlip
             Dim grandtotal As Double = 0
             grandtotal = (subtotalamt + totalExpenseamt) - totalDiscountamt
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round(grandtotal, 3).ToString("0.000")
+            Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
 
             Dim stBalanceQuery As String
             stBalanceQuery = "select nvl(sum(pinvp_fc_val),0) as advance from ot_pos_so_payment a,ot_so_head b where b.soh_no = " + ds.Tables("Table").Rows.Item(0).Item(22).ToString + " and b.soh_sys_id = a.pinvp_invh_sys_id "
@@ -663,7 +666,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " else (select PM_PATIENT_NAME from om_patient_master where pm_cust_code = b.soh_flex_03) end as CustName,"
             stQuery = stQuery + " b.soh_BILL_ADDR_LINE_1||' '||b.soh_BILL_ADDR_LINE_2||' '||b.soh_BILL_COUNTRY_CODE as billing_addr,b.soH_BILL_TEL as billing_phone, b.soh_BILL_EMAIL as billing_email, b.soh_SHIP_ADDR_LINE_1||' '||b.soh_SHIP_ADDR_LINE_2||' '||b.soh_SHIP_COUNTRY_CODE as shipping_addr,"
             stQuery = stQuery + " a.soI_ITEM_CODE as ItemCode,a.soI_ITEM_DESC as ItemDesc,a.soI_UOM_CODE as ItmUOM,a.soI_PL_RATE as ItmPrice ,a.soI_QTY as ItmQty,a.soI_FC_VAL as ItmAmt,nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, "
-            stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,SOH_SM_CODE as salesman,SOH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.SOI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress  "
+            stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,SOH_SM_CODE as salesman,SOH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.SOI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
+            stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt "
             stQuery = stQuery + " from "
             stQuery = stQuery + " ot_so_head b,ot_so_item a, om_location c,om_address d"
             stQuery = stQuery + " where b.soh_no = " + TXN_NO.ToString + " and b.soh_sys_id = a.soi_soh_sys_id and b.soh_locn_code = c.locn_code and c.locn_addr_code = d.addr_code"
@@ -849,6 +853,7 @@ Public Class TransactionSlip
                 totalDiscountamt = totalDiscountamt + Convert.ToDouble(row.Item(18).ToString)
                 totalExpenseamt = totalExpenseamt + Convert.ToDouble(row.Item(19).ToString)
                 subtotalamt = subtotalamt + Convert.ToDouble(row.Item(17).ToString)
+                totalTaxAmount = totalTaxAmount + Convert.ToDouble(row.Item(25).ToString)
 
                 itemlines = itemlines + 1
                 rowcount = rowcount - 1
@@ -861,6 +866,7 @@ Public Class TransactionSlip
             Dim grandtotal As Double = 0
             grandtotal = (subtotalamt + totalExpenseamt) - totalDiscountamt
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round(grandtotal, 3).ToString("0.000")
+            Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
 
             Dim stBalanceQuery As String
             stBalanceQuery = "select nvl(sum(pinvp_fc_val),0) as advance from ot_pos_so_payment a,ot_so_head b where b.soh_no = " + TXN_NO.ToString + " and b.soh_sys_id = a.pinvp_invh_sys_id "
@@ -1160,7 +1166,7 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVExpTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalExpenseamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
-            Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text = taxPercentageValue & "% " & Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text
+            'Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text = taxPercentageValue & "% " & Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round((subtotalamt + totalExpenseamt) - totalDiscountamt, 3).ToString("0.000")
 
             CreationPageBottom()
@@ -1840,8 +1846,8 @@ Public Class TransactionSlip
             .Text = ""
             .Name = "lblINVTaxTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
-            .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(96, 16)
+            .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
+            .Size = New Size(80, 16)
 
         End With
         Me.lblINVTaxTotal_VALUE.Add(lbl)
