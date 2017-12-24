@@ -6510,6 +6510,9 @@ Public Class Transactions
                         command.CommandText = stQuery
                         command.ExecuteNonQuery()
 
+                        'Added this code to implement tax in POS  - Ticket-https://evisionsoft.freshdesk.com/helpdesk/tickets/40 
+                        Dim taxImpl As New TaxImpl(db)
+
                         For k = 1 To txtItemCode.Count
                             Dim ItmCodeFound As System.Windows.Forms.Control() = Me.Controls.Find("ItemCode" & k, True)
                             Dim ItmDescFound As System.Windows.Forms.Control() = Me.Controls.Find("ItemDesc" & k, True)
@@ -6552,6 +6555,45 @@ Public Class Transactions
                                 'MAILLOGValues.Add(MAILLOGROWNUM, "INSERT QUERY OT_CUST_SALE_RET_ITEM  -   " & stQuery)
                                 command.CommandText = stQuery
                                 command.ExecuteNonQuery()
+
+                                'Added this code to implement tax in POS  - Ticket-https://evisionsoft.freshdesk.com/helpdesk/tickets/40 
+                                Dim itemCodeForTaxEntry As String = ""
+                                Dim itemPriceForTaxEntry As Double = rowI.Item(6)
+                                itemCodeForTaxEntry = rowI.Item(2).ToString
+
+                                'Added this code to implement tax in POS  - Ticket-https://evisionsoft.freshdesk.com/helpdesk/tickets/40 
+                                Dim taxCode As String = taxImpl.getLocationTaxCodeForItem(Location_Code, itemCodeForTaxEntry)
+                                Dim taxPercentage As Double = taxImpl.getTaxPercentageofItem(itemCodeForTaxEntry, Location_Code, TXN_Code, taxCode)
+                                Dim taxValueOfItem As Double = taxImpl.calculateTaxValueofItem(itemCodeForTaxEntry, itemPriceForTaxEntry, Location_Code, TXN_Code, taxCode, taxPercentage)
+                                'taxValueOfItem = taxValueOfItem
+                                If Not taxValueOfItem.Equals(0) Then
+                                    stQuery = New String("")
+                                    stQuery = "select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX'"
+                                    Dim dsTED As DataSet = db.SelectFromTableODBC(stQuery)
+                                    Dim TEDTAX_NUM As String = ""
+                                    If dsTED.Tables("Table").Rows.Count > 0 Then
+                                        TEDTAX_NUM = dsTED.Tables("Table").Rows.Item(0).Item(0).ToString
+                                    End If
+
+                                    stQuery = "SELECT ITED_TED_RATE,ITED_TED_CODE from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=" & rowI.Item(0).ToString & " and ITED_H_SYS_ID=" & rowI.Item(1).ToString & " and ITED_TED_TYPE_NUM=" & TEDTAX_NUM
+                                    dsTED = db.SelectFromTableODBC(stQuery)
+                                    Dim TEDRATE As String = "0"
+                                    Dim TEDCODE As String = ""
+                                    If dsTED.Tables("Table").Rows.Count > 0 Then
+                                        If dsTED.Tables("Table").Rows.Item(0).Item(0).ToString = "" Then
+                                            TEDRATE = "0"
+                                        Else
+                                            TEDRATE = dsTED.Tables("Table").Rows.Item(0).Item(0).ToString
+                                        End If
+
+                                        TEDCODE = dsTED.Tables("Table").Rows.Item(0).Item(1).ToString
+                                        stQuery = "INSERT INTO OT_CUST_SALE_RET_ITEM_TED (ITED_SYS_ID,ITED_H_SYS_ID,ITED_I_SYS_ID ,ITED_TED_CODE,ITED_TED_TYPE_NUM,ITED_TED_HEAD_ITEM_NUM,ITED_TED_BASIS, ITED_TED_CURR_CODE,ITED_TXN_CURR_CODE,ITED_TED_RATE,ITED_TAXABLE_FC_AMT, ITED_TAXABLE_LC_AMT,ITED_FC_AMT,ITED_LC_AMT,ITED_NET_FC_AMT,ITED_NET_LC_AMT,ITED_CR_UID,ITED_CR_DT)VALUES("
+                                        stQuery = stQuery & "ITED_SYS_ID.NEXTVAL" & "," & maxSYS_ID & "," & maxItemSYSID & ",'" & TEDCODE & "'," & TEDTAX_NUM & ",'2','R','" + Currency_Code + "','" + Currency_Code + "'," + "0" + "," + rowI.Item(6).ToString + "," + rowI.Item(6).ToString + "," + ItmDisamtFound(0).Text + "," + ItmDisamtFound(0).Text + "," + ItmDisamtFound(0).Text + "," + ItmDisamtFound(0).Text + ",'" + LogonUser + "',sysdate)"
+                                        errLog.WriteToErrorLog("QUERY INSERT ITEM TED TAX", stQuery, "")
+                                        command.CommandText = stQuery
+                                        command.ExecuteNonQuery()
+                                    End If
+                                End If
 
                                 If Not ItmDisamtFound(0).Text = "" Or Not ItmDisamtFound(0).Text = "0" Then
                                     stQuery = "select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS'"

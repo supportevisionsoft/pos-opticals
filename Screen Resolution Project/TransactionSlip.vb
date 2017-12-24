@@ -181,7 +181,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.CSRI_QTY as ItmQty,"
             stQuery = stQuery + " a.CSRI_FC_VAL as ItmAmt,"
             stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
-            stQuery = stQuery & " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress "
+            stQuery = stQuery & " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
+            stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt "
             stQuery = stQuery + " from "
             stQuery = stQuery + " OT_CUST_SALE_RET_HEAD b,OT_CUST_SALE_RET_ITEM a,om_location c,om_address d"
             stQuery = stQuery + " where b.CSRH_NO = " + TXN_NO.ToString + " and"
@@ -369,6 +370,7 @@ Public Class TransactionSlip
                 totalDiscountamt = totalDiscountamt + Convert.ToDouble(row.Item(18).ToString)
                 totalExpenseamt = totalExpenseamt + Convert.ToDouble(row.Item(19).ToString)
                 subtotalamt = subtotalamt + Convert.ToDouble(row.Item(17).ToString)
+                totalTaxAmount = totalTaxAmount + Convert.ToDouble(row.Item(25).ToString)
 
                 itemlines = itemlines + 1
                 rowcount = rowcount - 1
@@ -379,6 +381,7 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVExpTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalExpenseamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round((subtotalamt + totalExpenseamt) - totalDiscountamt, 3).ToString("0.000")
+            Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
 
             CreationPageBottom()
         Catch ex As Exception

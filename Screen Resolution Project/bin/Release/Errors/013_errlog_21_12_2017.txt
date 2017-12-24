@@ -9703,3 +9703,1830 @@ StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMEN
 Date/Time: 21/12/2017 8:17:51 PM
 ================================================
 
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: USER_ID menu_user
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK'
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: Location Privileges
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK' and '013' in (SELECT ula_locn_code from user_location_access where ula_u_id = 'ESHACK' and ULA_PRIV_YN = 'Y')
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: salemancode
+StackTrace: SELECT SM_CODE || '-' || SM_NAME as salemancode FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: USER_MENU_ACCESS
+StackTrace: SELECT  POS_REPORT_HEAD_ID ,POS_REPORT_HEAD_TITLE FROM  POS_REPORT_HEAD A, USER_MENU_ACCESS B WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: Transaction
+StackTrace: SELECT distinct D.PSD_REPORT_TITLE FROM POS_REPORT_HEAD A, USER_MENU_ACCESS B,USER_SUBMENU_ACCESS C,POS_REPORT_DETAIL D WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y' AND C.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND D.PSD_REPORT_HEAD_ID=A.POS_REPORT_HEAD_ID AND A.POS_REPORT_HEAD_TITLE='Transaction' and C.USMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Settings' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Masters' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:55:21 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Reports' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:55:22 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_COUNTER_SETUP
+StackTrace: SELECT POCS_KEY, POCS_VALUE FROM OM_POS_OPTIONS_COUNTER_SETUP WHERE POCS_COMP_CODE = '001' AND POCS_LOCN_CODE = '013' AND POCS_COUNTER_CODE = '009'
+Date/Time: 21/12/2017 8:55:22 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_LOCATION_SETUP
+StackTrace: SELECT  POLS_KEY, POLS_VALUE FROM OM_POS_OPTIONS_LOCATION_SETUP WHERE POLS_COMP_CODE = '001' AND  POLS_LOCN_CODE = '013'
+Date/Time: 21/12/2017 8:55:22 PM
+================================================
+
+================================================
+Title: 
+Message: OM_LOCATION LOGO
+StackTrace: SELECT  LOCN_FLEX_19,LOCN_FLEX_20 FROM OM_LOCATION WHERE LOCN_CODE = '013'
+Date/Time: 21/12/2017 8:55:22 PM
+================================================
+
+================================================
+Title: A_BK_DATE  query
+Message: select to_char(sysdate,'dd-mm-yyyy') from dual
+StackTrace: 
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Salesman query
+StackTrace: SELECT SM_CODE || ' - ' ||  SM_NAME , SM_NAME  FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Patient Location query
+StackTrace: select distinct pm_locn_code from om_patient_master a,om_location b where a.pm_locn_code=b.locn_code
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Stock Location query
+StackTrace: select LOCN_CODE as loccode, LOCN_CODE || '-' || LOCN_SHORT_NAME as locdisplay from crm_om_location order by locdisplay
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PPD_CODE query
+StackTrace: select PPD_CODE from OM_POS_PAYMENT_DET
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans GiftVouchers query
+StackTrace: SELECT VSSV_CODE,VSSV_NAME FROM IM_VS_STATIC_VALUE WHERE VSSV_VS_CODE ='GIFT_VOUCHER' AND NVL(VSSV_FRZ_FLAG_NUM,2) = 2 AND VSSV_VS_CODE IN (SELECT VS_CODE FROM IM_VALUE_SET WHERE VS_TYPE = 'S')
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CURR_CODE query
+StackTrace: select CURR_CODE from FM_CURRENCY
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = '' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PL_CURR_CODE query
+StackTrace: SELECT PL_CURR_CODE FROM OM_PRICE_LIST WHERE '21-Dec-17' BETWEEN PL_EFF_FROM_DT AND PL_EFF_TO_DT AND PL_COMP_CODE = '001' AND PL_CODE = 'OGENPL' AND PL_FRZ_FLAG_NUM=2 
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND ((('AED' <> 'AED') AND CER_EXG_RATE_TYPE= 'B') OR ('AED' = 'AED')) AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: Account Year query
+Message: SELECT PC_ACNT_YEAR, PC_CAL_YEAR, PC_CAL_PERIOD FROM OS_PERIOD_CLOSE, OM_LOCATION, OM_ACNT_PERIOD WHERE LOCN_CLOSING_GROUP = PC_CLOSE_GROUP_CODE AND PC_COMP_CODE = APER_COMP_CODE AND PC_ACNT_YEAR = APER_ACNT_YEAR AND PC_CAL_YEAR = APER_CAL_YEAR AND PC_CAL_PERIOD = APER_CAL_MONTH AND PC_COMP_CODE = '001' AND LOCN_CODE = '013' AND '21-Dec-17' BETWEEN APER_FRM_DT AND APER_TO_DT AND NVL(PC_STATUS, 'X') = 'O'
+StackTrace: 
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans TXN CODE query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'POSINV' AND TXN_TYPE = 'INV'
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: CUST NAME OM_CUSTOMER query
+StackTrace: select CUST_NAME from OM_CUSTOMER where CUST_CODE='SO001'
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CPT TERM CODE query
+StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMENT_TERM WHERE CPT_CUST_CODE = 'SO001'
+Date/Time: 21/12/2017 8:55:25 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:55:35 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:55:35 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131653)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131653)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653)
+Date/Time: 21/12/2017 8:55:47 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131652)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131652)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652)
+Date/Time: 21/12/2017 8:55:55 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDDIS
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652 AND INVI_ITEM_CODE='SM-S15501A'
+Date/Time: 21/12/2017 8:56:03 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDEXP
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652 AND INVI_ITEM_CODE='SM-S15501A'
+Date/Time: 21/12/2017 8:56:03 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:56:13 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:56:13 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:56:13 PM
+================================================
+
+================================================
+Title: 
+Message: paymentok Query
+StackTrace: select CURR_CODE from FM_CURRENCY where CURR_CODE='AED'
+Date/Time: 21/12/2017 8:56:15 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:56:15 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: txn query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'SARTN' AND TXN_TYPE = 'SARTN'
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: txnd Query
+StackTrace: SELECT TXND_CURR_NO, TXND_TO_NO, TXND_FM_NO FROM OM_TXN_DOC_RANGE WHERE TXND_COMP_CODE ='001' AND TXND_TXN_CODE ='SARTN' AND TXND_LOCN_CODE ='013'
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: csrh Query
+StackTrace: select nvl(max(CSRH_NO),0) from OT_CUST_SALE_RET_HEAD where CSRH_NO between 130000 and 139999
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: Update OM_TXN_DOC_RANGE SALESRETURN
+StackTrace: UPDATE OM_TXN_DOC_RANGE SET TXND_CURR_NO =130210 WHERE TXND_COMP_CODE = '001' AND TXND_TXN_CODE = 'SARTN' AND TXND_LOCN_CODE = '013'
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: shift Query
+StackTrace: select sms_shift_code from om_pos_salesman_shift where sms_Code='PERF_SALES'
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: invhsys Query
+StackTrace: Select INVH_SYS_ID,INVH_CUST_CODE,INVH_SHIP_TO_ADDR_CODE,INVH_BILL_TO_ADDR_CODE,INVH_CUST_NAME,INVH_BILL_ADDR_LINE_1,INVH_BILL_ADDR_LINE_2,INVH_BILL_ADDR_LINE_3,INVH_BILL_ADDR_LINE_4,INVH_BILL_ADDR_LINE_5,INVH_BILL_CITY_CODE,INVH_BILL_COUNTY_CODE,INVH_BILL_STATE_CODE,INVH_BILL_POSTAL_CODE,INVH_BILL_COUNTRY_CODE,INVH_BILL_CONTACT,INVH_BILL_EMAIL,INVH_BILL_FAX,INVH_BILL_TEL,INVH_BILL_MOBILE,INVH_FLEX_03,INVH_FLEX_04 from OT_INVOICE_HEAD where INVH_NO=131652
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_HEAD
+StackTrace: INSERT INTO OT_CUST_SALE_RET_HEAD (CSRH_SYS_ID,CSRH_COMP_CODE,CSRH_TXN_CODE,CSRH_NO,CSRH_DT,CSRH_ACNT_YEAR,CSRH_CAL_YEAR,CSRH_CAL_PERIOD,CSRH_DOC_SRC_LOCN_CODE,CSRH_REF_FROM,CSRH_REF_FROM_NUM,CSRH_REF_TXN_CODE,CSRH_REF_NO,CSRH_REF_SYS_ID,CSRH_LOCN_CODE,CSRH_DEL_LOCN_CODE,CSRH_CUST_CODE,CSRH_CURR_CODE,CSRH_SHIP_TO_ADDR_CODE,CSRH_BILL_TO_ADDR_CODE,CSRH_EXGE_RATE,CSRH_DISC_PERC,CSRH_FC_DISC_VAL,CSRH_SM_CODE,CSRH_STATUS,CSRH_PRINT_STATUS,CSRH_APPR_STATUS,CSRH_APPR_UID,CSRH_COS_FIN_STATUS,CSRH_ANNOTATION,CSRH_FLEX_10,CSRH_FLEX_14,CSRH_FLEX_15,CSRH_FLEX_16,CSRH_FLEX_17,CSRH_FLEX_18,CSRH_FLEX_19,CSRH_FLEX_20,CSRH_CUST_NAME,CSRH_BILL_ADDR_LINE_1,CSRH_BILL_ADDR_LINE_2,CSRH_BILL_ADDR_LINE_3,CSRH_BILL_ADDR_LINE_4, CSRH_BILL_ADDR_LINE_5,CSRH_BILL_CITY_CODE,CSRH_BILL_COUNTY_CODE,CSRH_BILL_STATE_CODE,CSRH_BILL_POSTAL_CODE,CSRH_BILL_COUNTRY_CODE,CSRH_BILL_CONTACT ,CSRH_BILL_EMAIL,CSRH_BILL_FAX,CSRH_BILL_TEL,CSRH_BILL_MOBILE,CSRH_CR_UID,CSRH_CR_DT,CSRH_FLEX_03,CSRH_FLEX_04) VALUES(272550967,'001','SARTN',130210,'21-Dec-17',14,2017,12,'013','IN',15,'POSINV',131652,272550962,'013','013','SO001','AED','SO001','SO001',1,0,0,'PERF_SALES','',1,0,'ESHACK','','','N','N','','','','','8 AM TO 8 AM','009','SHOWROOM CUSTOMER','','','','','','','','','','0','','','','','','ESHACK',to_date(sysdate,'DD-MM-YY'),'','')
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_REF
+StackTrace: INSERT INTO OT_CUST_SALE_RET_REF (CSRR_SYS_ID,CSRR_CSRH_SYS_ID,CSRR_REF_TXN_CODE,CSRR_REF_NO,CSRR_REF_SYS_ID,CSRR_CR_DT,CSRR_CR_UID) VALUES (850139,272550967,'POSINV',131652,272550962,current_timestamp,'ESHACK')
+Date/Time: 21/12/2017 8:56:18 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_ITEM
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM (CSRI_SYS_ID,CSRI_CSRH_SYS_ID,CSRI_INVI_SYS_ID,CSRI_ITEM_CODE,CSRI_ITEM_STK_YN_NUM,CSRI_ITEM_DESC,CSRI_UOM_CODE,CSRI_QTY,CSRI_QTY_LS,CSRI_QTY_BU,CSRI_INVI_QTY_BU,CSRI_DNI_QTY_BU,CSRI_RATE,CSRI_DISC_PERC,CSRI_FC_DISC_VAL,CSRI_FC_VAL,CSRI_FC_VAL_AFT_H_DISC,CSRI_UPD_STK_YN,CSRI_LOCN_CODE,CSRI_DEL_LOCN_CODE,CSRI_SM_CODE,CSRI_GRADE_CODE_1,CSRI_GRADE_CODE_2,CSRI_FLEX_18,CSRI_FLEX_19,CSRI_FLEX_20,CSRI_CR_UID,CSRI_CR_DT) VALUES (36898656,272550967,36898628,'SM-S15501A','1','SMARTY SUNGLASS','PCS',1,0,1,0,0,390,0,0,390,390,'Y','013','013','PERF_SALES','NA','NA','SM-S15501A','','','ESHACK',current_timestamp)
+Date/Time: 21/12/2017 8:56:19 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: USER_ID menu_user
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: Location Privileges
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK' and '013' in (SELECT ula_locn_code from user_location_access where ula_u_id = 'ESHACK' and ULA_PRIV_YN = 'Y')
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: salemancode
+StackTrace: SELECT SM_CODE || '-' || SM_NAME as salemancode FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: USER_MENU_ACCESS
+StackTrace: SELECT  POS_REPORT_HEAD_ID ,POS_REPORT_HEAD_TITLE FROM  POS_REPORT_HEAD A, USER_MENU_ACCESS B WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: Transaction
+StackTrace: SELECT distinct D.PSD_REPORT_TITLE FROM POS_REPORT_HEAD A, USER_MENU_ACCESS B,USER_SUBMENU_ACCESS C,POS_REPORT_DETAIL D WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y' AND C.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND D.PSD_REPORT_HEAD_ID=A.POS_REPORT_HEAD_ID AND A.POS_REPORT_HEAD_TITLE='Transaction' and C.USMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Settings' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Masters' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Reports' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_COUNTER_SETUP
+StackTrace: SELECT POCS_KEY, POCS_VALUE FROM OM_POS_OPTIONS_COUNTER_SETUP WHERE POCS_COMP_CODE = '001' AND POCS_LOCN_CODE = '013' AND POCS_COUNTER_CODE = '009'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_LOCATION_SETUP
+StackTrace: SELECT  POLS_KEY, POLS_VALUE FROM OM_POS_OPTIONS_LOCATION_SETUP WHERE POLS_COMP_CODE = '001' AND  POLS_LOCN_CODE = '013'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: 
+Message: OM_LOCATION LOGO
+StackTrace: SELECT  LOCN_FLEX_19,LOCN_FLEX_20 FROM OM_LOCATION WHERE LOCN_CODE = '013'
+Date/Time: 21/12/2017 8:58:09 PM
+================================================
+
+================================================
+Title: A_BK_DATE  query
+Message: select to_char(sysdate,'dd-mm-yyyy') from dual
+StackTrace: 
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Salesman query
+StackTrace: SELECT SM_CODE || ' - ' ||  SM_NAME , SM_NAME  FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Patient Location query
+StackTrace: select distinct pm_locn_code from om_patient_master a,om_location b where a.pm_locn_code=b.locn_code
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Stock Location query
+StackTrace: select LOCN_CODE as loccode, LOCN_CODE || '-' || LOCN_SHORT_NAME as locdisplay from crm_om_location order by locdisplay
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PPD_CODE query
+StackTrace: select PPD_CODE from OM_POS_PAYMENT_DET
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans GiftVouchers query
+StackTrace: SELECT VSSV_CODE,VSSV_NAME FROM IM_VS_STATIC_VALUE WHERE VSSV_VS_CODE ='GIFT_VOUCHER' AND NVL(VSSV_FRZ_FLAG_NUM,2) = 2 AND VSSV_VS_CODE IN (SELECT VS_CODE FROM IM_VALUE_SET WHERE VS_TYPE = 'S')
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CURR_CODE query
+StackTrace: select CURR_CODE from FM_CURRENCY
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = '' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PL_CURR_CODE query
+StackTrace: SELECT PL_CURR_CODE FROM OM_PRICE_LIST WHERE '21-Dec-17' BETWEEN PL_EFF_FROM_DT AND PL_EFF_TO_DT AND PL_COMP_CODE = '001' AND PL_CODE = 'OGENPL' AND PL_FRZ_FLAG_NUM=2 
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND ((('AED' <> 'AED') AND CER_EXG_RATE_TYPE= 'B') OR ('AED' = 'AED')) AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: Account Year query
+Message: SELECT PC_ACNT_YEAR, PC_CAL_YEAR, PC_CAL_PERIOD FROM OS_PERIOD_CLOSE, OM_LOCATION, OM_ACNT_PERIOD WHERE LOCN_CLOSING_GROUP = PC_CLOSE_GROUP_CODE AND PC_COMP_CODE = APER_COMP_CODE AND PC_ACNT_YEAR = APER_ACNT_YEAR AND PC_CAL_YEAR = APER_CAL_YEAR AND PC_CAL_PERIOD = APER_CAL_MONTH AND PC_COMP_CODE = '001' AND LOCN_CODE = '013' AND '21-Dec-17' BETWEEN APER_FRM_DT AND APER_TO_DT AND NVL(PC_STATUS, 'X') = 'O'
+StackTrace: 
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans TXN CODE query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'POSINV' AND TXN_TYPE = 'INV'
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: CUST NAME OM_CUSTOMER query
+StackTrace: select CUST_NAME from OM_CUSTOMER where CUST_CODE='SO001'
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CPT TERM CODE query
+StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMENT_TERM WHERE CPT_CUST_CODE = 'SO001'
+Date/Time: 21/12/2017 8:58:13 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:58:20 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:58:20 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131653)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131653)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653)
+Date/Time: 21/12/2017 8:58:31 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131652)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131652)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652)
+Date/Time: 21/12/2017 8:58:36 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDDIS
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652 AND INVI_ITEM_CODE='SM-S15501A'
+Date/Time: 21/12/2017 8:58:38 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDEXP
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652 AND INVI_ITEM_CODE='SM-S15501A'
+Date/Time: 21/12/2017 8:58:38 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:58:50 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:58:50 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:58:51 PM
+================================================
+
+================================================
+Title: 
+Message: paymentok Query
+StackTrace: select CURR_CODE from FM_CURRENCY where CURR_CODE='AED'
+Date/Time: 21/12/2017 8:58:56 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 8:58:56 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: txn query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'SARTN' AND TXN_TYPE = 'SARTN'
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: txnd Query
+StackTrace: SELECT TXND_CURR_NO, TXND_TO_NO, TXND_FM_NO FROM OM_TXN_DOC_RANGE WHERE TXND_COMP_CODE ='001' AND TXND_TXN_CODE ='SARTN' AND TXND_LOCN_CODE ='013'
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: csrh Query
+StackTrace: select nvl(max(CSRH_NO),0) from OT_CUST_SALE_RET_HEAD where CSRH_NO between 130000 and 139999
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: Update OM_TXN_DOC_RANGE SALESRETURN
+StackTrace: UPDATE OM_TXN_DOC_RANGE SET TXND_CURR_NO =130210 WHERE TXND_COMP_CODE = '001' AND TXND_TXN_CODE = 'SARTN' AND TXND_LOCN_CODE = '013'
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: shift Query
+StackTrace: select sms_shift_code from om_pos_salesman_shift where sms_Code='PERF_SALES'
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: invhsys Query
+StackTrace: Select INVH_SYS_ID,INVH_CUST_CODE,INVH_SHIP_TO_ADDR_CODE,INVH_BILL_TO_ADDR_CODE,INVH_CUST_NAME,INVH_BILL_ADDR_LINE_1,INVH_BILL_ADDR_LINE_2,INVH_BILL_ADDR_LINE_3,INVH_BILL_ADDR_LINE_4,INVH_BILL_ADDR_LINE_5,INVH_BILL_CITY_CODE,INVH_BILL_COUNTY_CODE,INVH_BILL_STATE_CODE,INVH_BILL_POSTAL_CODE,INVH_BILL_COUNTRY_CODE,INVH_BILL_CONTACT,INVH_BILL_EMAIL,INVH_BILL_FAX,INVH_BILL_TEL,INVH_BILL_MOBILE,INVH_FLEX_03,INVH_FLEX_04 from OT_INVOICE_HEAD where INVH_NO=131652
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_HEAD
+StackTrace: INSERT INTO OT_CUST_SALE_RET_HEAD (CSRH_SYS_ID,CSRH_COMP_CODE,CSRH_TXN_CODE,CSRH_NO,CSRH_DT,CSRH_ACNT_YEAR,CSRH_CAL_YEAR,CSRH_CAL_PERIOD,CSRH_DOC_SRC_LOCN_CODE,CSRH_REF_FROM,CSRH_REF_FROM_NUM,CSRH_REF_TXN_CODE,CSRH_REF_NO,CSRH_REF_SYS_ID,CSRH_LOCN_CODE,CSRH_DEL_LOCN_CODE,CSRH_CUST_CODE,CSRH_CURR_CODE,CSRH_SHIP_TO_ADDR_CODE,CSRH_BILL_TO_ADDR_CODE,CSRH_EXGE_RATE,CSRH_DISC_PERC,CSRH_FC_DISC_VAL,CSRH_SM_CODE,CSRH_STATUS,CSRH_PRINT_STATUS,CSRH_APPR_STATUS,CSRH_APPR_UID,CSRH_COS_FIN_STATUS,CSRH_ANNOTATION,CSRH_FLEX_10,CSRH_FLEX_14,CSRH_FLEX_15,CSRH_FLEX_16,CSRH_FLEX_17,CSRH_FLEX_18,CSRH_FLEX_19,CSRH_FLEX_20,CSRH_CUST_NAME,CSRH_BILL_ADDR_LINE_1,CSRH_BILL_ADDR_LINE_2,CSRH_BILL_ADDR_LINE_3,CSRH_BILL_ADDR_LINE_4, CSRH_BILL_ADDR_LINE_5,CSRH_BILL_CITY_CODE,CSRH_BILL_COUNTY_CODE,CSRH_BILL_STATE_CODE,CSRH_BILL_POSTAL_CODE,CSRH_BILL_COUNTRY_CODE,CSRH_BILL_CONTACT ,CSRH_BILL_EMAIL,CSRH_BILL_FAX,CSRH_BILL_TEL,CSRH_BILL_MOBILE,CSRH_CR_UID,CSRH_CR_DT,CSRH_FLEX_03,CSRH_FLEX_04) VALUES(272550968,'001','SARTN',130210,'21-Dec-17',14,2017,12,'013','IN',15,'POSINV',131652,272550962,'013','013','SO001','AED','SO001','SO001',1,0,0,'PERF_SALES','',1,0,'ESHACK','','','N','N','','','','','8 AM TO 8 AM','009','SHOWROOM CUSTOMER','','','','','','','','','','0','','','','','','ESHACK',to_date(sysdate,'DD-MM-YY'),'','')
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_REF
+StackTrace: INSERT INTO OT_CUST_SALE_RET_REF (CSRR_SYS_ID,CSRR_CSRH_SYS_ID,CSRR_REF_TXN_CODE,CSRR_REF_NO,CSRR_REF_SYS_ID,CSRR_CR_DT,CSRR_CR_UID) VALUES (850140,272550968,'POSINV',131652,272550962,current_timestamp,'ESHACK')
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_ITEM
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM (CSRI_SYS_ID,CSRI_CSRH_SYS_ID,CSRI_INVI_SYS_ID,CSRI_ITEM_CODE,CSRI_ITEM_STK_YN_NUM,CSRI_ITEM_DESC,CSRI_UOM_CODE,CSRI_QTY,CSRI_QTY_LS,CSRI_QTY_BU,CSRI_INVI_QTY_BU,CSRI_DNI_QTY_BU,CSRI_RATE,CSRI_DISC_PERC,CSRI_FC_DISC_VAL,CSRI_FC_VAL,CSRI_FC_VAL_AFT_H_DISC,CSRI_UPD_STK_YN,CSRI_LOCN_CODE,CSRI_DEL_LOCN_CODE,CSRI_SM_CODE,CSRI_GRADE_CODE_1,CSRI_GRADE_CODE_2,CSRI_FLEX_18,CSRI_FLEX_19,CSRI_FLEX_20,CSRI_CR_UID,CSRI_CR_DT) VALUES (36898657,272550968,36898628,'SM-S15501A','1','SMARTY SUNGLASS','PCS',1,0,1,0,0,390,0,0,390,390,'Y','013','013','PERF_SALES','NA','NA','SM-S15501A','','','ESHACK',current_timestamp)
+Date/Time: 21/12/2017 8:59:01 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 9:05:23 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: USER_ID menu_user
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: Location Privileges
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK' and '013' in (SELECT ula_locn_code from user_location_access where ula_u_id = 'ESHACK' and ULA_PRIV_YN = 'Y')
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: salemancode
+StackTrace: SELECT SM_CODE || '-' || SM_NAME as salemancode FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: USER_MENU_ACCESS
+StackTrace: SELECT  POS_REPORT_HEAD_ID ,POS_REPORT_HEAD_TITLE FROM  POS_REPORT_HEAD A, USER_MENU_ACCESS B WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: Transaction
+StackTrace: SELECT distinct D.PSD_REPORT_TITLE FROM POS_REPORT_HEAD A, USER_MENU_ACCESS B,USER_SUBMENU_ACCESS C,POS_REPORT_DETAIL D WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y' AND C.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND D.PSD_REPORT_HEAD_ID=A.POS_REPORT_HEAD_ID AND A.POS_REPORT_HEAD_TITLE='Transaction' and C.USMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Settings' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Masters' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Reports' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_COUNTER_SETUP
+StackTrace: SELECT POCS_KEY, POCS_VALUE FROM OM_POS_OPTIONS_COUNTER_SETUP WHERE POCS_COMP_CODE = '001' AND POCS_LOCN_CODE = '013' AND POCS_COUNTER_CODE = '009'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_LOCATION_SETUP
+StackTrace: SELECT  POLS_KEY, POLS_VALUE FROM OM_POS_OPTIONS_LOCATION_SETUP WHERE POLS_COMP_CODE = '001' AND  POLS_LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: 
+Message: OM_LOCATION LOGO
+StackTrace: SELECT  LOCN_FLEX_19,LOCN_FLEX_20 FROM OM_LOCATION WHERE LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:05:24 PM
+================================================
+
+================================================
+Title: A_BK_DATE  query
+Message: select to_char(sysdate,'dd-mm-yyyy') from dual
+StackTrace: 
+Date/Time: 21/12/2017 9:05:28 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Salesman query
+StackTrace: SELECT SM_CODE || ' - ' ||  SM_NAME , SM_NAME  FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:05:28 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Patient Location query
+StackTrace: select distinct pm_locn_code from om_patient_master a,om_location b where a.pm_locn_code=b.locn_code
+Date/Time: 21/12/2017 9:05:28 PM
+================================================
+
+================================================
+Title: 
+Message: Stock Location query
+StackTrace: select LOCN_CODE as loccode, LOCN_CODE || '-' || LOCN_SHORT_NAME as locdisplay from crm_om_location order by locdisplay
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PPD_CODE query
+StackTrace: select PPD_CODE from OM_POS_PAYMENT_DET
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: Trans GiftVouchers query
+StackTrace: SELECT VSSV_CODE,VSSV_NAME FROM IM_VS_STATIC_VALUE WHERE VSSV_VS_CODE ='GIFT_VOUCHER' AND NVL(VSSV_FRZ_FLAG_NUM,2) = 2 AND VSSV_VS_CODE IN (SELECT VS_CODE FROM IM_VALUE_SET WHERE VS_TYPE = 'S')
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CURR_CODE query
+StackTrace: select CURR_CODE from FM_CURRENCY
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = '' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PL_CURR_CODE query
+StackTrace: SELECT PL_CURR_CODE FROM OM_PRICE_LIST WHERE '21-Dec-17' BETWEEN PL_EFF_FROM_DT AND PL_EFF_TO_DT AND PL_COMP_CODE = '001' AND PL_CODE = 'OGENPL' AND PL_FRZ_FLAG_NUM=2 
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND ((('AED' <> 'AED') AND CER_EXG_RATE_TYPE= 'B') OR ('AED' = 'AED')) AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: Account Year query
+Message: SELECT PC_ACNT_YEAR, PC_CAL_YEAR, PC_CAL_PERIOD FROM OS_PERIOD_CLOSE, OM_LOCATION, OM_ACNT_PERIOD WHERE LOCN_CLOSING_GROUP = PC_CLOSE_GROUP_CODE AND PC_COMP_CODE = APER_COMP_CODE AND PC_ACNT_YEAR = APER_ACNT_YEAR AND PC_CAL_YEAR = APER_CAL_YEAR AND PC_CAL_PERIOD = APER_CAL_MONTH AND PC_COMP_CODE = '001' AND LOCN_CODE = '013' AND '21-Dec-17' BETWEEN APER_FRM_DT AND APER_TO_DT AND NVL(PC_STATUS, 'X') = 'O'
+StackTrace: 
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: Trans TXN CODE query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'POSINV' AND TXN_TYPE = 'INV'
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: CUST NAME OM_CUSTOMER query
+StackTrace: select CUST_NAME from OM_CUSTOMER where CUST_CODE='SO001'
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CPT TERM CODE query
+StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMENT_TERM WHERE CPT_CUST_CODE = 'SO001'
+Date/Time: 21/12/2017 9:05:29 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:05:37 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:05:37 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131652)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131652)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652)
+Date/Time: 21/12/2017 9:05:50 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDDIS
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652 AND INVI_ITEM_CODE='SM-S15501A'
+Date/Time: 21/12/2017 9:05:52 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDEXP
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131652 AND INVI_ITEM_CODE='SM-S15501A'
+Date/Time: 21/12/2017 9:05:52 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:06:03 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:06:03 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:06:03 PM
+================================================
+
+================================================
+Title: 
+Message: paymentok Query
+StackTrace: select CURR_CODE from FM_CURRENCY where CURR_CODE='AED'
+Date/Time: 21/12/2017 9:06:04 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:06:04 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: txn query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'SARTN' AND TXN_TYPE = 'SARTN'
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: txnd Query
+StackTrace: SELECT TXND_CURR_NO, TXND_TO_NO, TXND_FM_NO FROM OM_TXN_DOC_RANGE WHERE TXND_COMP_CODE ='001' AND TXND_TXN_CODE ='SARTN' AND TXND_LOCN_CODE ='013'
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: csrh Query
+StackTrace: select nvl(max(CSRH_NO),0) from OT_CUST_SALE_RET_HEAD where CSRH_NO between 130000 and 139999
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: Update OM_TXN_DOC_RANGE SALESRETURN
+StackTrace: UPDATE OM_TXN_DOC_RANGE SET TXND_CURR_NO =130210 WHERE TXND_COMP_CODE = '001' AND TXND_TXN_CODE = 'SARTN' AND TXND_LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: shift Query
+StackTrace: select sms_shift_code from om_pos_salesman_shift where sms_Code='PERF_SALES'
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: invhsys Query
+StackTrace: Select INVH_SYS_ID,INVH_CUST_CODE,INVH_SHIP_TO_ADDR_CODE,INVH_BILL_TO_ADDR_CODE,INVH_CUST_NAME,INVH_BILL_ADDR_LINE_1,INVH_BILL_ADDR_LINE_2,INVH_BILL_ADDR_LINE_3,INVH_BILL_ADDR_LINE_4,INVH_BILL_ADDR_LINE_5,INVH_BILL_CITY_CODE,INVH_BILL_COUNTY_CODE,INVH_BILL_STATE_CODE,INVH_BILL_POSTAL_CODE,INVH_BILL_COUNTRY_CODE,INVH_BILL_CONTACT,INVH_BILL_EMAIL,INVH_BILL_FAX,INVH_BILL_TEL,INVH_BILL_MOBILE,INVH_FLEX_03,INVH_FLEX_04 from OT_INVOICE_HEAD where INVH_NO=131652
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_HEAD
+StackTrace: INSERT INTO OT_CUST_SALE_RET_HEAD (CSRH_SYS_ID,CSRH_COMP_CODE,CSRH_TXN_CODE,CSRH_NO,CSRH_DT,CSRH_ACNT_YEAR,CSRH_CAL_YEAR,CSRH_CAL_PERIOD,CSRH_DOC_SRC_LOCN_CODE,CSRH_REF_FROM,CSRH_REF_FROM_NUM,CSRH_REF_TXN_CODE,CSRH_REF_NO,CSRH_REF_SYS_ID,CSRH_LOCN_CODE,CSRH_DEL_LOCN_CODE,CSRH_CUST_CODE,CSRH_CURR_CODE,CSRH_SHIP_TO_ADDR_CODE,CSRH_BILL_TO_ADDR_CODE,CSRH_EXGE_RATE,CSRH_DISC_PERC,CSRH_FC_DISC_VAL,CSRH_SM_CODE,CSRH_STATUS,CSRH_PRINT_STATUS,CSRH_APPR_STATUS,CSRH_APPR_UID,CSRH_COS_FIN_STATUS,CSRH_ANNOTATION,CSRH_FLEX_10,CSRH_FLEX_14,CSRH_FLEX_15,CSRH_FLEX_16,CSRH_FLEX_17,CSRH_FLEX_18,CSRH_FLEX_19,CSRH_FLEX_20,CSRH_CUST_NAME,CSRH_BILL_ADDR_LINE_1,CSRH_BILL_ADDR_LINE_2,CSRH_BILL_ADDR_LINE_3,CSRH_BILL_ADDR_LINE_4, CSRH_BILL_ADDR_LINE_5,CSRH_BILL_CITY_CODE,CSRH_BILL_COUNTY_CODE,CSRH_BILL_STATE_CODE,CSRH_BILL_POSTAL_CODE,CSRH_BILL_COUNTRY_CODE,CSRH_BILL_CONTACT ,CSRH_BILL_EMAIL,CSRH_BILL_FAX,CSRH_BILL_TEL,CSRH_BILL_MOBILE,CSRH_CR_UID,CSRH_CR_DT,CSRH_FLEX_03,CSRH_FLEX_04) VALUES(272550969,'001','SARTN',130210,'21-Dec-17',14,2017,12,'013','IN',15,'POSINV',131652,272550962,'013','013','SO001','AED','SO001','SO001',1,0,0,'PERF_SALES','',1,0,'ESHACK','','','N','N','','','','','8 AM TO 8 AM','009','SHOWROOM CUSTOMER','','','','','','','','','','0','','','','','','ESHACK',to_date(sysdate,'DD-MM-YY'),'','')
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_REF
+StackTrace: INSERT INTO OT_CUST_SALE_RET_REF (CSRR_SYS_ID,CSRR_CSRH_SYS_ID,CSRR_REF_TXN_CODE,CSRR_REF_NO,CSRR_REF_SYS_ID,CSRR_CR_DT,CSRR_CR_UID) VALUES (850141,272550969,'POSINV',131652,272550962,current_timestamp,'ESHACK')
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_ITEM
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM (CSRI_SYS_ID,CSRI_CSRH_SYS_ID,CSRI_INVI_SYS_ID,CSRI_ITEM_CODE,CSRI_ITEM_STK_YN_NUM,CSRI_ITEM_DESC,CSRI_UOM_CODE,CSRI_QTY,CSRI_QTY_LS,CSRI_QTY_BU,CSRI_INVI_QTY_BU,CSRI_DNI_QTY_BU,CSRI_RATE,CSRI_DISC_PERC,CSRI_FC_DISC_VAL,CSRI_FC_VAL,CSRI_FC_VAL_AFT_H_DISC,CSRI_UPD_STK_YN,CSRI_LOCN_CODE,CSRI_DEL_LOCN_CODE,CSRI_SM_CODE,CSRI_GRADE_CODE_1,CSRI_GRADE_CODE_2,CSRI_FLEX_18,CSRI_FLEX_19,CSRI_FLEX_20,CSRI_CR_UID,CSRI_CR_DT) VALUES (36898658,272550969,36898628,'SM-S15501A','1','SMARTY SUNGLASS','PCS',1,0,1,0,0,390,0,0,390,390,'Y','013','013','PERF_SALES','NA','NA','SM-S15501A','','','ESHACK',current_timestamp)
+Date/Time: 21/12/2017 9:06:12 PM
+================================================
+
+================================================
+Title: 
+Message: QUERY INSERT ITEM TED TAX
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM_TED (ITED_SYS_ID,ITED_H_SYS_ID,ITED_I_SYS_ID ,ITED_TED_CODE,ITED_TED_TYPE_NUM,ITED_TED_HEAD_ITEM_NUM,ITED_TED_BASIS, ITED_TED_CURR_CODE,ITED_TXN_CURR_CODE,ITED_TED_RATE,ITED_TAXABLE_FC_AMT, ITED_TAXABLE_LC_AMT,ITED_FC_AMT,ITED_LC_AMT,ITED_NET_FC_AMT,ITED_NET_LC_AMT,ITED_CR_UID,ITED_CR_DT)VALUES(ITED_SYS_ID.NEXTVAL,272550969,36898658,'VAT5',1,'2','R','AED','AED',0,390,390,0,0,0,0,'ESHACK',sysdate)
+Date/Time: 21/12/2017 9:07:36 PM
+================================================
+
+================================================
+Title: 
+Message: QUERY Payment Insertion Sales Return
+StackTrace: INSERT INTO OT_POS_CUST_SALE_RET_PAYMENT (PCSRTP_SYS_ID,PCSRTP_CSRH_SYS_ID ,PCSRTP_PPD_CODE,PCSRTP_PPD_DESC,PCSRTP_CURR_CODE,PCSRTP_FC_VAL,PCSRTP_FLEX_20,PCSRTP_CR_DT,PCSRTP_CR_UID,PCSRTP_LC_VAL) VALUES (POS_CSRT_SYS_ID.NEXTVAL,272550969,'CN','CREDIT NOTE','AED',390,'CREDIT NOTE',sysdate,'ESHACK',390)
+Date/Time: 21/12/2017 9:07:49 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Report Query
+StackTrace:  select rownum,b.CSRH_NO ,to_char( b.CSRH_DT,'DD/MM/YYYY') as InvoiceDate,  d.ADDR_LINE_1 as locn_name, d.ADDR_LINE_2|| ' ' || d.ADDR_LINE_3 as Location_Address, d.addr_tel as Phone,d.addr_email as Email, case nvl(b.CSRH_FLEX_03,0) when '0' then (select cust_name from om_customer where cust_code = b.CSRH_CUST_CODE) else (select PM_PATIENT_NAME from om_patient_master where PM_CUST_NO = b.CSRH_FLEX_03) end as CustName, b.CSRH_BILL_ADDR_LINE_1||' '||b.CSRH_BILL_ADDR_LINE_2||' '||b.CSRH_BILL_COUNTRY_CODE as billing_addr, b.CSRH_BILL_TEL as billing_phone, b.CSRH_BILL_EMAIL as billing_email, b.CSRH_SHIP_ADDR_LINE_1||' '||b.CSRH_SHIP_ADDR_LINE_2||' '||b.CSRH_SHIP_COUNTRY_CODE as shipping_addr, a.CSRI_ITEM_CODE as ItemCode,a.CSRI_ITEM_DESC as ItemDesc, a.CSRI_UOM_CODE as ItmUOM, a.CSRI_RATE as ItmPrice , a.CSRI_QTY as ItmQty, a.CSRI_FC_VAL as ItmAmt, nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress  from  OT_CUST_SALE_RET_HEAD b,OT_CUST_SALE_RET_ITEM a,om_location c,om_address d where b.CSRH_NO = 130210 and b.CSRH_SYS_ID = a.CSRI_CSRH_SYS_ID and b.CSRH_LOCN_CODE = c.locn_code and c.locn_addr_code = d.addr_code
+Date/Time: 21/12/2017 9:08:25 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: USER_ID menu_user
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: Location Privileges
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK' and '013' in (SELECT ula_locn_code from user_location_access where ula_u_id = 'ESHACK' and ULA_PRIV_YN = 'Y')
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: salemancode
+StackTrace: SELECT SM_CODE || '-' || SM_NAME as salemancode FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: USER_MENU_ACCESS
+StackTrace: SELECT  POS_REPORT_HEAD_ID ,POS_REPORT_HEAD_TITLE FROM  POS_REPORT_HEAD A, USER_MENU_ACCESS B WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: Transaction
+StackTrace: SELECT distinct D.PSD_REPORT_TITLE FROM POS_REPORT_HEAD A, USER_MENU_ACCESS B,USER_SUBMENU_ACCESS C,POS_REPORT_DETAIL D WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y' AND C.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND D.PSD_REPORT_HEAD_ID=A.POS_REPORT_HEAD_ID AND A.POS_REPORT_HEAD_TITLE='Transaction' and C.USMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Settings' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Masters' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Reports' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_COUNTER_SETUP
+StackTrace: SELECT POCS_KEY, POCS_VALUE FROM OM_POS_OPTIONS_COUNTER_SETUP WHERE POCS_COMP_CODE = '001' AND POCS_LOCN_CODE = '013' AND POCS_COUNTER_CODE = '009'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_LOCATION_SETUP
+StackTrace: SELECT  POLS_KEY, POLS_VALUE FROM OM_POS_OPTIONS_LOCATION_SETUP WHERE POLS_COMP_CODE = '001' AND  POLS_LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: 
+Message: OM_LOCATION LOGO
+StackTrace: SELECT  LOCN_FLEX_19,LOCN_FLEX_20 FROM OM_LOCATION WHERE LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:21:17 PM
+================================================
+
+================================================
+Title: A_BK_DATE  query
+Message: select to_char(sysdate,'dd-mm-yyyy') from dual
+StackTrace: 
+Date/Time: 21/12/2017 9:21:26 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Salesman query
+StackTrace: SELECT SM_CODE || ' - ' ||  SM_NAME , SM_NAME  FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:21:26 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Patient Location query
+StackTrace: select distinct pm_locn_code from om_patient_master a,om_location b where a.pm_locn_code=b.locn_code
+Date/Time: 21/12/2017 9:21:26 PM
+================================================
+
+================================================
+Title: 
+Message: Stock Location query
+StackTrace: select LOCN_CODE as loccode, LOCN_CODE || '-' || LOCN_SHORT_NAME as locdisplay from crm_om_location order by locdisplay
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PPD_CODE query
+StackTrace: select PPD_CODE from OM_POS_PAYMENT_DET
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Trans GiftVouchers query
+StackTrace: SELECT VSSV_CODE,VSSV_NAME FROM IM_VS_STATIC_VALUE WHERE VSSV_VS_CODE ='GIFT_VOUCHER' AND NVL(VSSV_FRZ_FLAG_NUM,2) = 2 AND VSSV_VS_CODE IN (SELECT VS_CODE FROM IM_VALUE_SET WHERE VS_TYPE = 'S')
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CURR_CODE query
+StackTrace: select CURR_CODE from FM_CURRENCY
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = '' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PL_CURR_CODE query
+StackTrace: SELECT PL_CURR_CODE FROM OM_PRICE_LIST WHERE '21-Dec-17' BETWEEN PL_EFF_FROM_DT AND PL_EFF_TO_DT AND PL_COMP_CODE = '001' AND PL_CODE = 'OGENPL' AND PL_FRZ_FLAG_NUM=2 
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND ((('AED' <> 'AED') AND CER_EXG_RATE_TYPE= 'B') OR ('AED' = 'AED')) AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: Account Year query
+Message: SELECT PC_ACNT_YEAR, PC_CAL_YEAR, PC_CAL_PERIOD FROM OS_PERIOD_CLOSE, OM_LOCATION, OM_ACNT_PERIOD WHERE LOCN_CLOSING_GROUP = PC_CLOSE_GROUP_CODE AND PC_COMP_CODE = APER_COMP_CODE AND PC_ACNT_YEAR = APER_ACNT_YEAR AND PC_CAL_YEAR = APER_CAL_YEAR AND PC_CAL_PERIOD = APER_CAL_MONTH AND PC_COMP_CODE = '001' AND LOCN_CODE = '013' AND '21-Dec-17' BETWEEN APER_FRM_DT AND APER_TO_DT AND NVL(PC_STATUS, 'X') = 'O'
+StackTrace: 
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Trans TXN CODE query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'POSINV' AND TXN_TYPE = 'INV'
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: CUST NAME OM_CUSTOMER query
+StackTrace: select CUST_NAME from OM_CUSTOMER where CUST_CODE='SO001'
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CPT TERM CODE query
+StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMENT_TERM WHERE CPT_CUST_CODE = 'SO001'
+Date/Time: 21/12/2017 9:21:27 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Report Query
+StackTrace:  select rownum,b.CSRH_NO ,to_char( b.CSRH_DT,'DD/MM/YYYY') as InvoiceDate,  d.ADDR_LINE_1 as locn_name, d.ADDR_LINE_2|| ' ' || d.ADDR_LINE_3 as Location_Address, d.addr_tel as Phone,d.addr_email as Email, case nvl(b.CSRH_FLEX_03,0) when '0' then (select cust_name from om_customer where cust_code = b.CSRH_CUST_CODE) else (select PM_PATIENT_NAME from om_patient_master where PM_CUST_NO = b.CSRH_FLEX_03) end as CustName, b.CSRH_BILL_ADDR_LINE_1||' '||b.CSRH_BILL_ADDR_LINE_2||' '||b.CSRH_BILL_COUNTRY_CODE as billing_addr, b.CSRH_BILL_TEL as billing_phone, b.CSRH_BILL_EMAIL as billing_email, b.CSRH_SHIP_ADDR_LINE_1||' '||b.CSRH_SHIP_ADDR_LINE_2||' '||b.CSRH_SHIP_COUNTRY_CODE as shipping_addr, a.CSRI_ITEM_CODE as ItemCode,a.CSRI_ITEM_DESC as ItemDesc, a.CSRI_UOM_CODE as ItmUOM, a.CSRI_RATE as ItmPrice , a.CSRI_QTY as ItmQty, a.CSRI_FC_VAL as ItmAmt, nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress,  nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt  from  OT_CUST_SALE_RET_HEAD b,OT_CUST_SALE_RET_ITEM a,om_location c,om_address d where b.CSRH_NO = 130210 and b.CSRH_SYS_ID = a.CSRI_CSRH_SYS_ID and b.CSRH_LOCN_CODE = c.locn_code and c.locn_addr_code = d.addr_code
+Date/Time: 21/12/2017 9:21:38 PM
+================================================
+
+================================================
+Title: A_BK_DATE  query
+Message: select to_char(sysdate,'dd-mm-yyyy') from dual
+StackTrace: 
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Salesman query
+StackTrace: SELECT SM_CODE || ' - ' ||  SM_NAME , SM_NAME  FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Patient Location query
+StackTrace: select distinct pm_locn_code from om_patient_master a,om_location b where a.pm_locn_code=b.locn_code
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Stock Location query
+StackTrace: select LOCN_CODE as loccode, LOCN_CODE || '-' || LOCN_SHORT_NAME as locdisplay from crm_om_location order by locdisplay
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PPD_CODE query
+StackTrace: select PPD_CODE from OM_POS_PAYMENT_DET
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans GiftVouchers query
+StackTrace: SELECT VSSV_CODE,VSSV_NAME FROM IM_VS_STATIC_VALUE WHERE VSSV_VS_CODE ='GIFT_VOUCHER' AND NVL(VSSV_FRZ_FLAG_NUM,2) = 2 AND VSSV_VS_CODE IN (SELECT VS_CODE FROM IM_VALUE_SET WHERE VS_TYPE = 'S')
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CURR_CODE query
+StackTrace: select CURR_CODE from FM_CURRENCY
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PL_CURR_CODE query
+StackTrace: SELECT PL_CURR_CODE FROM OM_PRICE_LIST WHERE '21-Dec-17' BETWEEN PL_EFF_FROM_DT AND PL_EFF_TO_DT AND PL_COMP_CODE = '001' AND PL_CODE = 'OGENPL' AND PL_FRZ_FLAG_NUM=2 
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND ((('AED' <> 'AED') AND CER_EXG_RATE_TYPE= 'B') OR ('AED' = 'AED')) AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: Account Year query
+Message: SELECT PC_ACNT_YEAR, PC_CAL_YEAR, PC_CAL_PERIOD FROM OS_PERIOD_CLOSE, OM_LOCATION, OM_ACNT_PERIOD WHERE LOCN_CLOSING_GROUP = PC_CLOSE_GROUP_CODE AND PC_COMP_CODE = APER_COMP_CODE AND PC_ACNT_YEAR = APER_ACNT_YEAR AND PC_CAL_YEAR = APER_CAL_YEAR AND PC_CAL_PERIOD = APER_CAL_MONTH AND PC_COMP_CODE = '001' AND LOCN_CODE = '013' AND '21-Dec-17' BETWEEN APER_FRM_DT AND APER_TO_DT AND NVL(PC_STATUS, 'X') = 'O'
+StackTrace: 
+Date/Time: 21/12/2017 9:21:57 PM
+================================================
+
+================================================
+Title: 
+Message: Trans TXN CODE query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'POSINV' AND TXN_TYPE = 'INV'
+Date/Time: 21/12/2017 9:21:58 PM
+================================================
+
+================================================
+Title: 
+Message: CUST NAME OM_CUSTOMER query
+StackTrace: select CUST_NAME from OM_CUSTOMER where CUST_CODE='SO001'
+Date/Time: 21/12/2017 9:21:58 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CPT TERM CODE query
+StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMENT_TERM WHERE CPT_CUST_CODE = 'SO001'
+Date/Time: 21/12/2017 9:21:58 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:22:04 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:22:04 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131653)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131653)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653)
+Date/Time: 21/12/2017 9:22:11 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDDIS
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653 AND INVI_ITEM_CODE='RB4187-856/13-54'
+Date/Time: 21/12/2017 9:22:16 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDEXP
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131653 AND INVI_ITEM_CODE='RB4187-856/13-54'
+Date/Time: 21/12/2017 9:22:16 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:22:24 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:22:26 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:22:26 PM
+================================================
+
+================================================
+Title: 
+Message: paymentok Query
+StackTrace: select CURR_CODE from FM_CURRENCY where CURR_CODE='AED'
+Date/Time: 21/12/2017 9:22:28 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:22:28 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: txn query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'SARTN' AND TXN_TYPE = 'SARTN'
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: txnd Query
+StackTrace: SELECT TXND_CURR_NO, TXND_TO_NO, TXND_FM_NO FROM OM_TXN_DOC_RANGE WHERE TXND_COMP_CODE ='001' AND TXND_TXN_CODE ='SARTN' AND TXND_LOCN_CODE ='013'
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: csrh Query
+StackTrace: select nvl(max(CSRH_NO),0) from OT_CUST_SALE_RET_HEAD where CSRH_NO between 130000 and 139999
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: Update OM_TXN_DOC_RANGE SALESRETURN
+StackTrace: UPDATE OM_TXN_DOC_RANGE SET TXND_CURR_NO =130211 WHERE TXND_COMP_CODE = '001' AND TXND_TXN_CODE = 'SARTN' AND TXND_LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: shift Query
+StackTrace: select sms_shift_code from om_pos_salesman_shift where sms_Code='PERF_SALES'
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: invhsys Query
+StackTrace: Select INVH_SYS_ID,INVH_CUST_CODE,INVH_SHIP_TO_ADDR_CODE,INVH_BILL_TO_ADDR_CODE,INVH_CUST_NAME,INVH_BILL_ADDR_LINE_1,INVH_BILL_ADDR_LINE_2,INVH_BILL_ADDR_LINE_3,INVH_BILL_ADDR_LINE_4,INVH_BILL_ADDR_LINE_5,INVH_BILL_CITY_CODE,INVH_BILL_COUNTY_CODE,INVH_BILL_STATE_CODE,INVH_BILL_POSTAL_CODE,INVH_BILL_COUNTRY_CODE,INVH_BILL_CONTACT,INVH_BILL_EMAIL,INVH_BILL_FAX,INVH_BILL_TEL,INVH_BILL_MOBILE,INVH_FLEX_03,INVH_FLEX_04 from OT_INVOICE_HEAD where INVH_NO=131653
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_HEAD
+StackTrace: INSERT INTO OT_CUST_SALE_RET_HEAD (CSRH_SYS_ID,CSRH_COMP_CODE,CSRH_TXN_CODE,CSRH_NO,CSRH_DT,CSRH_ACNT_YEAR,CSRH_CAL_YEAR,CSRH_CAL_PERIOD,CSRH_DOC_SRC_LOCN_CODE,CSRH_REF_FROM,CSRH_REF_FROM_NUM,CSRH_REF_TXN_CODE,CSRH_REF_NO,CSRH_REF_SYS_ID,CSRH_LOCN_CODE,CSRH_DEL_LOCN_CODE,CSRH_CUST_CODE,CSRH_CURR_CODE,CSRH_SHIP_TO_ADDR_CODE,CSRH_BILL_TO_ADDR_CODE,CSRH_EXGE_RATE,CSRH_DISC_PERC,CSRH_FC_DISC_VAL,CSRH_SM_CODE,CSRH_STATUS,CSRH_PRINT_STATUS,CSRH_APPR_STATUS,CSRH_APPR_UID,CSRH_COS_FIN_STATUS,CSRH_ANNOTATION,CSRH_FLEX_10,CSRH_FLEX_14,CSRH_FLEX_15,CSRH_FLEX_16,CSRH_FLEX_17,CSRH_FLEX_18,CSRH_FLEX_19,CSRH_FLEX_20,CSRH_CUST_NAME,CSRH_BILL_ADDR_LINE_1,CSRH_BILL_ADDR_LINE_2,CSRH_BILL_ADDR_LINE_3,CSRH_BILL_ADDR_LINE_4, CSRH_BILL_ADDR_LINE_5,CSRH_BILL_CITY_CODE,CSRH_BILL_COUNTY_CODE,CSRH_BILL_STATE_CODE,CSRH_BILL_POSTAL_CODE,CSRH_BILL_COUNTRY_CODE,CSRH_BILL_CONTACT ,CSRH_BILL_EMAIL,CSRH_BILL_FAX,CSRH_BILL_TEL,CSRH_BILL_MOBILE,CSRH_CR_UID,CSRH_CR_DT,CSRH_FLEX_03,CSRH_FLEX_04) VALUES(272550970,'001','SARTN',130211,'21-Dec-17',14,2017,12,'013','IN',15,'POSINV',131653,272550963,'013','013','SO001','AED','SO001','SO001',1,0,0,'PERF_SALES','',1,0,'ESHACK','','','N','N','','','','','8 AM TO 8 AM','009','SHOWROOM CUSTOMER','','','','','','','','','','0','','','','','','ESHACK',to_date(sysdate,'DD-MM-YY'),'','')
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_REF
+StackTrace: INSERT INTO OT_CUST_SALE_RET_REF (CSRR_SYS_ID,CSRR_CSRH_SYS_ID,CSRR_REF_TXN_CODE,CSRR_REF_NO,CSRR_REF_SYS_ID,CSRR_CR_DT,CSRR_CR_UID) VALUES (850142,272550970,'POSINV',131653,272550963,current_timestamp,'ESHACK')
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_ITEM
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM (CSRI_SYS_ID,CSRI_CSRH_SYS_ID,CSRI_INVI_SYS_ID,CSRI_ITEM_CODE,CSRI_ITEM_STK_YN_NUM,CSRI_ITEM_DESC,CSRI_UOM_CODE,CSRI_QTY,CSRI_QTY_LS,CSRI_QTY_BU,CSRI_INVI_QTY_BU,CSRI_DNI_QTY_BU,CSRI_RATE,CSRI_DISC_PERC,CSRI_FC_DISC_VAL,CSRI_FC_VAL,CSRI_FC_VAL_AFT_H_DISC,CSRI_UPD_STK_YN,CSRI_LOCN_CODE,CSRI_DEL_LOCN_CODE,CSRI_SM_CODE,CSRI_GRADE_CODE_1,CSRI_GRADE_CODE_2,CSRI_FLEX_18,CSRI_FLEX_19,CSRI_FLEX_20,CSRI_CR_UID,CSRI_CR_DT) VALUES (36898660,272550970,36898630,'RB4187-856/13-54','1','RAYBAN SUNGLASS','PCS',1,0,1,0,0,490,0,0,490,490,'Y','013','013','PERF_SALES','NA','NA','RB4187-856/13-54','','','ESHACK',current_timestamp)
+Date/Time: 21/12/2017 9:22:41 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 9:24:43 PM
+================================================
+
+================================================
+Title: 
+Message: LOGIN
+StackTrace: select POSCNT_NO,OM_POS_COUNTER.ROWID from om_pos_counter where poscnt_locn_code='013' and poscnt_frz_flag_num = 2  and (POSCNT_COMPUTER_NAME='GCITRIX' or POSCNT_IP_ADDRESS= '')
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: USER_ID menu_user
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: Location Privileges
+StackTrace: select USER_ID from menu_user where USER_ID ='ESHACK' and USER_FIELD_05 = 'ESHACK' and '013' in (SELECT ula_locn_code from user_location_access where ula_u_id = 'ESHACK' and ULA_PRIV_YN = 'Y')
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: salemancode
+StackTrace: SELECT SM_CODE || '-' || SM_NAME as salemancode FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: USER_MENU_ACCESS
+StackTrace: SELECT  POS_REPORT_HEAD_ID ,POS_REPORT_HEAD_TITLE FROM  POS_REPORT_HEAD A, USER_MENU_ACCESS B WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: Transaction
+StackTrace: SELECT distinct D.PSD_REPORT_TITLE FROM POS_REPORT_HEAD A, USER_MENU_ACCESS B,USER_SUBMENU_ACCESS C,POS_REPORT_DETAIL D WHERE UMA_UG_ID = (SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND B.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND B.UMA_PRIV_YN='Y' AND C.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND D.PSD_REPORT_HEAD_ID=A.POS_REPORT_HEAD_ID AND A.POS_REPORT_HEAD_TITLE='Transaction' and C.USMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Settings' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Masters' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: Setting
+StackTrace: SELECT DISTINCT USMA_SUB_REPORT_ID,D.PSD_REPORT_TITLE,USMA_PRIV_YN FROM POS_REPORT_HEAD A,USER_SUBMENU_ACCESS B, USER_MENU_ACCESS C,POS_REPORT_DETAIL D WHERE A.POS_REPORT_HEAD_TITLE='Reports' AND B.USMA_REPORT_ID=A.POS_REPORT_HEAD_ID AND  C.UMA_REPORT_ID = A.POS_REPORT_HEAD_ID AND C.UMA_REPORT_ID =B.USMA_REPORT_ID AND B.USMA_SUB_REPORT_ID=D.PSD_REPORT_ID AND B.USMA_UG_ID=(SELECT USER_GROUP_ID FROM MENU_USER WHERE USER_ID = 'ESHACK') AND C.UMA_PRIV_YN='Y'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_COUNTER_SETUP
+StackTrace: SELECT POCS_KEY, POCS_VALUE FROM OM_POS_OPTIONS_COUNTER_SETUP WHERE POCS_COMP_CODE = '001' AND POCS_LOCN_CODE = '013' AND POCS_COUNTER_CODE = '009'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: OM_POS_OPTIONS_LOCATION_SETUP
+StackTrace: SELECT  POLS_KEY, POLS_VALUE FROM OM_POS_OPTIONS_LOCATION_SETUP WHERE POLS_COMP_CODE = '001' AND  POLS_LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: 
+Message: OM_LOCATION LOGO
+StackTrace: SELECT  LOCN_FLEX_19,LOCN_FLEX_20 FROM OM_LOCATION WHERE LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:24:44 PM
+================================================
+
+================================================
+Title: A_BK_DATE  query
+Message: select to_char(sysdate,'dd-mm-yyyy') from dual
+StackTrace: 
+Date/Time: 21/12/2017 9:24:47 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Salesman query
+StackTrace: SELECT SM_CODE || ' - ' ||  SM_NAME , SM_NAME  FROM OM_SALESMAN WHERE SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:24:47 PM
+================================================
+
+================================================
+Title: 
+Message: Trans Patient Location query
+StackTrace: select distinct pm_locn_code from om_patient_master a,om_location b where a.pm_locn_code=b.locn_code
+Date/Time: 21/12/2017 9:24:47 PM
+================================================
+
+================================================
+Title: 
+Message: Stock Location query
+StackTrace: select LOCN_CODE as loccode, LOCN_CODE || '-' || LOCN_SHORT_NAME as locdisplay from crm_om_location order by locdisplay
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PPD_CODE query
+StackTrace: select PPD_CODE from OM_POS_PAYMENT_DET
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: Trans GiftVouchers query
+StackTrace: SELECT VSSV_CODE,VSSV_NAME FROM IM_VS_STATIC_VALUE WHERE VSSV_VS_CODE ='GIFT_VOUCHER' AND NVL(VSSV_FRZ_FLAG_NUM,2) = 2 AND VSSV_VS_CODE IN (SELECT VS_CODE FROM IM_VALUE_SET WHERE VS_TYPE = 'S')
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CURR_CODE query
+StackTrace: select CURR_CODE from FM_CURRENCY
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = '' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: Trans PL_CURR_CODE query
+StackTrace: SELECT PL_CURR_CODE FROM OM_PRICE_LIST WHERE '21-Dec-17' BETWEEN PL_EFF_FROM_DT AND PL_EFF_TO_DT AND PL_COMP_CODE = '001' AND PL_CODE = 'OGENPL' AND PL_FRZ_FLAG_NUM=2 
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND ((('AED' <> 'AED') AND CER_EXG_RATE_TYPE= 'B') OR ('AED' = 'AED')) AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: Account Year query
+Message: SELECT PC_ACNT_YEAR, PC_CAL_YEAR, PC_CAL_PERIOD FROM OS_PERIOD_CLOSE, OM_LOCATION, OM_ACNT_PERIOD WHERE LOCN_CLOSING_GROUP = PC_CLOSE_GROUP_CODE AND PC_COMP_CODE = APER_COMP_CODE AND PC_ACNT_YEAR = APER_ACNT_YEAR AND PC_CAL_YEAR = APER_CAL_YEAR AND PC_CAL_PERIOD = APER_CAL_MONTH AND PC_COMP_CODE = '001' AND LOCN_CODE = '013' AND '21-Dec-17' BETWEEN APER_FRM_DT AND APER_TO_DT AND NVL(PC_STATUS, 'X') = 'O'
+StackTrace: 
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: Trans TXN CODE query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'POSINV' AND TXN_TYPE = 'INV'
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: CUST NAME OM_CUSTOMER query
+StackTrace: select CUST_NAME from OM_CUSTOMER where CUST_CODE='SO001'
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: Trans CPT TERM CODE query
+StackTrace: SELECT CPT_TERM_CODE, OM_CUST_PAYMENT_TERM.ROWID FROM OM_CUST_PAYMENT_TERM WHERE CPT_CUST_CODE = 'SO001'
+Date/Time: 21/12/2017 9:24:48 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:24:54 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:24:54 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Add Query 
+StackTrace: SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU QTY FROM OT_INVOICE_ITEM A, OT_CUST_SALE_RET_ITEM B WHERE A.INVI_ITEM_CODE = B.CSRI_ITEM_CODE AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131656) AND CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO = 131656)  GROUP BY INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE,A.INVI_QTY_BU,A.INVI_CSRI_QTY_BU HAVING A.INVI_QTY_BU - A.INVI_CSRI_QTY_BU > 0 UNION SELECT INVI_SYS_ID, INVI_ITEM_CODE, INVI_ITEM_DESC, INVI_PL_RATE, INVI_QTY_BU QTY FROM OT_INVOICE_ITEM A WHERE A.INVI_ITEM_CODE NOT IN (SELECT CSRI_ITEM_CODE FROM OT_CUST_SALE_RET_ITEM B WHERE CSRI_CSRH_SYS_ID IN (SELECT CSRR_CSRH_SYS_ID FROM OT_CUST_SALE_RET_REF WHERE CSRR_REF_TXN_CODE = 'POSINV' AND CSRR_REF_NO =131656)) AND INVI_QTY_BU > 0 AND INVI_INVH_SYS_ID IN (SELECT INVH_SYS_ID FROM OT_INVOICE_HEAD WHERE INVH_COMP_CODE = '001' AND INVH_LOCN_CODE ='013' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131656)
+Date/Time: 21/12/2017 9:25:03 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDDIS
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131656 AND INVI_ITEM_CODE='KITS'
+Date/Time: 21/12/2017 9:25:06 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDEXP
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131656 AND INVI_ITEM_CODE='KITS'
+Date/Time: 21/12/2017 9:25:06 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDDIS
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131656 AND INVI_ITEM_CODE='RB3025-112/19-58'
+Date/Time: 21/12/2017 9:25:20 PM
+================================================
+
+================================================
+Title: 
+Message: SARTN TEDEXP
+StackTrace: SELECT ITED_TED_CODE,ITED_TED_RATE,ITED_FC_AMT from OT_INVOICE_ITEM A, OT_INVOICE_HEAD B, OT_INVOICE_ITEM_TED C where INVH_SYS_ID = INVI_INVH_SYS_ID AND ITED_I_SYS_ID =INVI_SYS_ID AND ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')  AND INVH_COMP_CODE = '001' AND INVH_TXN_CODE = 'POSINV' AND INVH_NO = 131656 AND INVI_ITEM_CODE='RB3025-112/19-58'
+Date/Time: 21/12/2017 9:25:20 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:25:30 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:25:30 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:25:30 PM
+================================================
+
+================================================
+Title: 
+Message: paymentok Query
+StackTrace: select CURR_CODE from FM_CURRENCY where CURR_CODE='AED'
+Date/Time: 21/12/2017 9:25:31 PM
+================================================
+
+================================================
+Title: Exchange rate query
+Message: SELECT CER_EXG_RATE FROM FM_EXCHANGE_RATE WHERE CER_CONV_FM_CURR_CODE = 'AED' AND CER_CONV_TO_CURR_CODE = 'AED' AND CER_EXG_RATE_TYPE= 'B' AND '21-Dec-17' BETWEEN CER_EFF_FRM_DT AND CER_EFF_TO_DT
+StackTrace: 
+Date/Time: 21/12/2017 9:25:31 PM
+================================================
+
+================================================
+Title: 
+Message: salesmancodechange
+StackTrace: SELECT SM_NAME  FROM OM_SALESMAN WHERE SM_CODE='PERF_SALES' AND SM_FRZ_FLAG_NUM = 2 AND SM_CODE IN (SELECT SMC_CODE FROM OM_SALESMAN_COMP WHERE SMC_COMP_CODE = '001' AND SMC_FRZ_FLAG_NUM = 2) AND SM_CODE IN (SELECT SMC_CODE FROM OM_POS_SALESMAN_COUNTER WHERE SMC_LOCN_CODE = '013' AND SMC_COUNT_CODE = '009' AND SMC_FRZ_FLAG_NUM = 2) ORDER BY SM_CODE
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: txn query
+StackTrace: SELECT TXN_CODE,TXN_TYPE  FROM OM_TXN WHERE TXN_CODE = 'SARTN' AND TXN_TYPE = 'SARTN'
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: txnd Query
+StackTrace: SELECT TXND_CURR_NO, TXND_TO_NO, TXND_FM_NO FROM OM_TXN_DOC_RANGE WHERE TXND_COMP_CODE ='001' AND TXND_TXN_CODE ='SARTN' AND TXND_LOCN_CODE ='013'
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: csrh Query
+StackTrace: select nvl(max(CSRH_NO),0) from OT_CUST_SALE_RET_HEAD where CSRH_NO between 130000 and 139999
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: Update OM_TXN_DOC_RANGE SALESRETURN
+StackTrace: UPDATE OM_TXN_DOC_RANGE SET TXND_CURR_NO =130211 WHERE TXND_COMP_CODE = '001' AND TXND_TXN_CODE = 'SARTN' AND TXND_LOCN_CODE = '013'
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: shift Query
+StackTrace: select sms_shift_code from om_pos_salesman_shift where sms_Code='PERF_SALES'
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: invhsys Query
+StackTrace: Select INVH_SYS_ID,INVH_CUST_CODE,INVH_SHIP_TO_ADDR_CODE,INVH_BILL_TO_ADDR_CODE,INVH_CUST_NAME,INVH_BILL_ADDR_LINE_1,INVH_BILL_ADDR_LINE_2,INVH_BILL_ADDR_LINE_3,INVH_BILL_ADDR_LINE_4,INVH_BILL_ADDR_LINE_5,INVH_BILL_CITY_CODE,INVH_BILL_COUNTY_CODE,INVH_BILL_STATE_CODE,INVH_BILL_POSTAL_CODE,INVH_BILL_COUNTRY_CODE,INVH_BILL_CONTACT,INVH_BILL_EMAIL,INVH_BILL_FAX,INVH_BILL_TEL,INVH_BILL_MOBILE,INVH_FLEX_03,INVH_FLEX_04 from OT_INVOICE_HEAD where INVH_NO=131656
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_HEAD
+StackTrace: INSERT INTO OT_CUST_SALE_RET_HEAD (CSRH_SYS_ID,CSRH_COMP_CODE,CSRH_TXN_CODE,CSRH_NO,CSRH_DT,CSRH_ACNT_YEAR,CSRH_CAL_YEAR,CSRH_CAL_PERIOD,CSRH_DOC_SRC_LOCN_CODE,CSRH_REF_FROM,CSRH_REF_FROM_NUM,CSRH_REF_TXN_CODE,CSRH_REF_NO,CSRH_REF_SYS_ID,CSRH_LOCN_CODE,CSRH_DEL_LOCN_CODE,CSRH_CUST_CODE,CSRH_CURR_CODE,CSRH_SHIP_TO_ADDR_CODE,CSRH_BILL_TO_ADDR_CODE,CSRH_EXGE_RATE,CSRH_DISC_PERC,CSRH_FC_DISC_VAL,CSRH_SM_CODE,CSRH_STATUS,CSRH_PRINT_STATUS,CSRH_APPR_STATUS,CSRH_APPR_UID,CSRH_COS_FIN_STATUS,CSRH_ANNOTATION,CSRH_FLEX_10,CSRH_FLEX_14,CSRH_FLEX_15,CSRH_FLEX_16,CSRH_FLEX_17,CSRH_FLEX_18,CSRH_FLEX_19,CSRH_FLEX_20,CSRH_CUST_NAME,CSRH_BILL_ADDR_LINE_1,CSRH_BILL_ADDR_LINE_2,CSRH_BILL_ADDR_LINE_3,CSRH_BILL_ADDR_LINE_4, CSRH_BILL_ADDR_LINE_5,CSRH_BILL_CITY_CODE,CSRH_BILL_COUNTY_CODE,CSRH_BILL_STATE_CODE,CSRH_BILL_POSTAL_CODE,CSRH_BILL_COUNTRY_CODE,CSRH_BILL_CONTACT ,CSRH_BILL_EMAIL,CSRH_BILL_FAX,CSRH_BILL_TEL,CSRH_BILL_MOBILE,CSRH_CR_UID,CSRH_CR_DT,CSRH_FLEX_03,CSRH_FLEX_04) VALUES(272550971,'001','SARTN',130211,'21-Dec-17',14,2017,12,'013','IN',15,'POSINV',131656,272550966,'013','013','SO001','AED','SO001','SO001',1,0,0,'PERF_SALES','',1,0,'ESHACK','','','N','N','','','','','8 AM TO 8 AM','009','SHOWROOM CUSTOMER','','','','','','','','','','0','','','','','','ESHACK',to_date(sysdate,'DD-MM-YY'),'','')
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_REF
+StackTrace: INSERT INTO OT_CUST_SALE_RET_REF (CSRR_SYS_ID,CSRR_CSRH_SYS_ID,CSRR_REF_TXN_CODE,CSRR_REF_NO,CSRR_REF_SYS_ID,CSRR_CR_DT,CSRR_CR_UID) VALUES (850143,272550971,'POSINV',131656,272550966,current_timestamp,'ESHACK')
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: INSERT QUERY OT_CUST_SALE_RET_ITEM
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM (CSRI_SYS_ID,CSRI_CSRH_SYS_ID,CSRI_INVI_SYS_ID,CSRI_ITEM_CODE,CSRI_ITEM_STK_YN_NUM,CSRI_ITEM_DESC,CSRI_UOM_CODE,CSRI_QTY,CSRI_QTY_LS,CSRI_QTY_BU,CSRI_INVI_QTY_BU,CSRI_DNI_QTY_BU,CSRI_RATE,CSRI_DISC_PERC,CSRI_FC_DISC_VAL,CSRI_FC_VAL,CSRI_FC_VAL_AFT_H_DISC,CSRI_UPD_STK_YN,CSRI_LOCN_CODE,CSRI_DEL_LOCN_CODE,CSRI_SM_CODE,CSRI_GRADE_CODE_1,CSRI_GRADE_CODE_2,CSRI_FLEX_18,CSRI_FLEX_19,CSRI_FLEX_20,CSRI_CR_UID,CSRI_CR_DT) VALUES (36898661,272550971,36898650,'RB3025-112/19-58','1','RAYBAN SUNGLASS','PCS',1,0,1,0,0,785,0,0,785,785,'Y','013','013','PERF_SALES','NA','NA','RB3025-112/19-58','','','ESHACK',current_timestamp)
+Date/Time: 21/12/2017 9:25:35 PM
+================================================
+
+================================================
+Title: 
+Message: QUERY INSERT ITEM TED TAX
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM_TED (ITED_SYS_ID,ITED_H_SYS_ID,ITED_I_SYS_ID ,ITED_TED_CODE,ITED_TED_TYPE_NUM,ITED_TED_HEAD_ITEM_NUM,ITED_TED_BASIS, ITED_TED_CURR_CODE,ITED_TXN_CURR_CODE,ITED_TED_RATE,ITED_TAXABLE_FC_AMT, ITED_TAXABLE_LC_AMT,ITED_FC_AMT,ITED_LC_AMT,ITED_NET_FC_AMT,ITED_NET_LC_AMT,ITED_CR_UID,ITED_CR_DT)VALUES(ITED_SYS_ID.NEXTVAL,272550971,36898661,'VAT5',1,'2','R','AED','AED',0,785,785,100,100,100,100,'ESHACK',sysdate)
+Date/Time: 21/12/2017 9:26:08 PM
+================================================
+
+================================================
+Title: 
+Message: QUERY INSERT ITEM TEDDIS
+StackTrace: INSERT INTO OT_CUST_SALE_RET_ITEM_TED (ITED_SYS_ID,ITED_H_SYS_ID,ITED_I_SYS_ID ,ITED_TED_CODE,ITED_TED_TYPE_NUM,ITED_TED_HEAD_ITEM_NUM,ITED_TED_BASIS, ITED_TED_CURR_CODE,ITED_TXN_CURR_CODE,ITED_TED_RATE,ITED_TAXABLE_FC_AMT, ITED_TAXABLE_LC_AMT,ITED_FC_AMT,ITED_LC_AMT,ITED_NET_FC_AMT,ITED_NET_LC_AMT,ITED_CR_UID,ITED_CR_DT)VALUES(ITED_SYS_ID.NEXTVAL,272550971,36898661,'D25',2,'2','R','AED','AED',0,785,785,100,100,100,100,'ESHACK',sysdate)
+Date/Time: 21/12/2017 9:27:15 PM
+================================================
+
+================================================
+Title: 
+Message: QUERY Payment Insertion Sales Return
+StackTrace: INSERT INTO OT_POS_CUST_SALE_RET_PAYMENT (PCSRTP_SYS_ID,PCSRTP_CSRH_SYS_ID ,PCSRTP_PPD_CODE,PCSRTP_PPD_DESC,PCSRTP_CURR_CODE,PCSRTP_FC_VAL,PCSRTP_FLEX_20,PCSRTP_CR_DT,PCSRTP_CR_UID,PCSRTP_LC_VAL) VALUES (POS_CSRT_SYS_ID.NEXTVAL,272550971,'CN','CREDIT NOTE','AED',685,'CREDIT NOTE',sysdate,'ESHACK',685)
+Date/Time: 21/12/2017 9:27:15 PM
+================================================
+
+================================================
+Title: 
+Message: Sales Return Report Query
+StackTrace:  select rownum,b.CSRH_NO ,to_char( b.CSRH_DT,'DD/MM/YYYY') as InvoiceDate,  d.ADDR_LINE_1 as locn_name, d.ADDR_LINE_2|| ' ' || d.ADDR_LINE_3 as Location_Address, d.addr_tel as Phone,d.addr_email as Email, case nvl(b.CSRH_FLEX_03,0) when '0' then (select cust_name from om_customer where cust_code = b.CSRH_CUST_CODE) else (select PM_PATIENT_NAME from om_patient_master where PM_CUST_NO = b.CSRH_FLEX_03) end as CustName, b.CSRH_BILL_ADDR_LINE_1||' '||b.CSRH_BILL_ADDR_LINE_2||' '||b.CSRH_BILL_COUNTRY_CODE as billing_addr, b.CSRH_BILL_TEL as billing_phone, b.CSRH_BILL_EMAIL as billing_email, b.CSRH_SHIP_ADDR_LINE_1||' '||b.CSRH_SHIP_ADDR_LINE_2||' '||b.CSRH_SHIP_COUNTRY_CODE as shipping_addr, a.CSRI_ITEM_CODE as ItemCode,a.CSRI_ITEM_DESC as ItemDesc, a.CSRI_UOM_CODE as ItmUOM, a.CSRI_RATE as ItmPrice , a.CSRI_QTY as ItmQty, a.CSRI_FC_VAL as ItmAmt, nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress,  nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt  from  OT_CUST_SALE_RET_HEAD b,OT_CUST_SALE_RET_ITEM a,om_location c,om_address d where b.CSRH_NO = 130211 and b.CSRH_SYS_ID = a.CSRI_CSRH_SYS_ID and b.CSRH_LOCN_CODE = c.locn_code and c.locn_addr_code = d.addr_code
+Date/Time: 21/12/2017 9:27:24 PM
+================================================
+
