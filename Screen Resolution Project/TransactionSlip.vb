@@ -19,6 +19,7 @@ Public Class TransactionSlip
     Private TXNTYPE As String
     Private rptLocationName As String = ""
     Private rptLocationAddr As String = ""
+    Private rptLocationTaxTRN As String = ""
     Private rptLocatinNameArabic As String = ""
     Private rptLocatinAddrArabic As String = ""
     Private rptLocationPhone As String = ""
@@ -94,6 +95,7 @@ Public Class TransactionSlip
     Private lblINVDisTotal_VALUE As New List(Of Label)
     Private lblINVTaxTotal_KEY As New List(Of Label)
     Private lblINVTaxTotal_VALUE As New List(Of Label)
+    Private lblINVTaxTRN_KEY_VALUE As New List(Of Label)
 
     Private lblRptSNOHeader As New List(Of Label)
     Private lblRptItemCodeHeader As New List(Of Label)
@@ -182,7 +184,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.CSRI_FC_VAL as ItmAmt,"
             stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
             stQuery = stQuery & " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
-            stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt "
+            stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
+            stQuery = stQuery & " c.LOCN_FLEX_11 as taxTRN "
             stQuery = stQuery + " from "
             stQuery = stQuery + " OT_CUST_SALE_RET_HEAD b,OT_CUST_SALE_RET_ITEM a,om_location c,om_address d"
             stQuery = stQuery + " where b.CSRH_NO = " + TXN_NO.ToString + " and"
@@ -199,6 +202,7 @@ Public Class TransactionSlip
             rptLocationAddr = ds.Tables("Table").Rows.Item(0).Item(4).ToString
             rptLocatinNameArabic = ds.Tables("Table").Rows.Item(0).Item(23).ToString
             rptLocatinAddrArabic = ds.Tables("Table").Rows.Item(0).Item(24).ToString
+            rptLocationTaxTRN = ds.Tables("Table").Rows.Item(0).Item(26).ToString
             rptLocationPhone = ds.Tables("Table").Rows.Item(0).Item(5).ToString
             rptLocationEmail = ds.Tables("Table").Rows.Item(0).Item(6).ToString
             Dim stSalesQuery As String = ""
@@ -414,7 +418,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.INVI_FC_VAL as ItmAmt,"
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno,INVH_REF_NO as refno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
-            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt "
+            stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
+            stQuery = stQuery + " c.LOCN_FLEX_11 as taxTRN "
             stQuery = stQuery + " from "
             stQuery = stQuery + " ot_invoice_head b,ot_invoice_item a,om_location c,om_address d"
             stQuery = stQuery + " where b.invh_no = " & TXN_NO & " and"
@@ -431,6 +436,7 @@ Public Class TransactionSlip
             rptLocationAddr = ds.Tables("Table").Rows.Item(0).Item(4).ToString
             rptLocatinNameArabic = ds.Tables("Table").Rows.Item(0).Item(23).ToString
             rptLocatinAddrArabic = ds.Tables("Table").Rows.Item(0).Item(24).ToString
+            rptLocationTaxTRN = ds.Tables("Table").Rows.Item(0).Item(26).ToString
             rptLocationPhone = ds.Tables("Table").Rows.Item(0).Item(5).ToString
             rptLocationEmail = ds.Tables("Table").Rows.Item(0).Item(6).ToString
             Dim stSalesQuery As String = ""
@@ -667,7 +673,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " b.soh_BILL_ADDR_LINE_1||' '||b.soh_BILL_ADDR_LINE_2||' '||b.soh_BILL_COUNTRY_CODE as billing_addr,b.soH_BILL_TEL as billing_phone, b.soh_BILL_EMAIL as billing_email, b.soh_SHIP_ADDR_LINE_1||' '||b.soh_SHIP_ADDR_LINE_2||' '||b.soh_SHIP_COUNTRY_CODE as shipping_addr,"
             stQuery = stQuery + " a.soI_ITEM_CODE as ItemCode,a.soI_ITEM_DESC as ItemDesc,a.soI_UOM_CODE as ItmUOM,a.soI_PL_RATE as ItmPrice ,a.soI_QTY as ItmQty,a.soI_FC_VAL as ItmAmt,nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, "
             stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,SOH_SM_CODE as salesman,SOH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.SOI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
-            stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt "
+            stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
+            stQuery = stQuery & " c.LOCN_FLEX_11 as taxTRN "
             stQuery = stQuery + " from "
             stQuery = stQuery + " ot_so_head b,ot_so_item a, om_location c,om_address d"
             stQuery = stQuery + " where b.soh_no = " + TXN_NO.ToString + " and b.soh_sys_id = a.soi_soh_sys_id and b.soh_locn_code = c.locn_code and c.locn_addr_code = d.addr_code"
@@ -682,6 +689,7 @@ Public Class TransactionSlip
             rptLocationAddr = ds.Tables("Table").Rows.Item(0).Item(4).ToString
             rptLocatinNameArabic = ds.Tables("Table").Rows.Item(0).Item(23).ToString
             rptLocatinAddrArabic = ds.Tables("Table").Rows.Item(0).Item(24).ToString
+            rptLocationTaxTRN = ds.Tables("Table").Rows.Item(0).Item(26).ToString
             rptLocationPhone = ds.Tables("Table").Rows.Item(0).Item(5).ToString
             rptLocationEmail = ds.Tables("Table").Rows.Item(0).Item(6).ToString
             Dim stSalesQuery As String = ""
@@ -963,7 +971,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
-            stQuery = stQuery + " nvl((select ITED_TED_RATE from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxpercentage "
+            stQuery = stQuery + " nvl((select ITED_TED_RATE from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxpercentage, "
+            stQuery = stQuery + " c.LOCN_FLEX_11 as taxTRN "
             stQuery = stQuery + " from "
             stQuery = stQuery + " ot_invoice_head b,ot_invoice_item a,om_location c,om_address d"
             stQuery = stQuery + " where b.invh_no = " & TXN_NO & " and"
@@ -981,6 +990,7 @@ Public Class TransactionSlip
             rptLocationAddr = ds.Tables("Table").Rows.Item(0).Item(4).ToString
             rptLocatinNameArabic = ds.Tables("Table").Rows.Item(0).Item(23).ToString
             rptLocatinAddrArabic = ds.Tables("Table").Rows.Item(0).Item(24).ToString
+            rptLocationTaxTRN = ds.Tables("Table").Rows.Item(0).Item(27).ToString
             rptLocationPhone = ds.Tables("Table").Rows.Item(0).Item(5).ToString
             rptLocationEmail = ds.Tables("Table").Rows.Item(0).Item(6).ToString
             Dim stSalesQuery As String = ""
@@ -1440,7 +1450,7 @@ Public Class TransactionSlip
             .Name = "lblINVDate_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
             .Font = New Font("Arial", 8, FontStyle.Regular)
-            .Size = New Size(150, 20)
+            .Size = New Size(120, 20)
         End With
         Me.lblINVDate_VALUE.Add(lbl)
         Me.Controls.Find("pnlInvDetails" & n.ToString, True)(0).Controls.Add(lbl)
@@ -1687,7 +1697,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVAdvPaid_KEY.Count
         With lbl
-            .Location = New Point(21, 21)
+            .Location = New Point(21, 5)
             .Text = "Advance Paid :"
             .Name = "lblINVAdvPaid_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
@@ -1701,7 +1711,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVAdvPaid_VALUE.Count
         With lbl
-            .Location = New Point(100, 21)
+            .Location = New Point(100, 5)
             .Text = "0"
             .Name = "lblINVAdvPaid_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
@@ -1715,7 +1725,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVBalance_KEY.Count
         With lbl
-            .Location = New Point(21, 41)
+            .Location = New Point(21, 24)
             If TXN_TYPE = "Sales Invoice" Then
                 .Text = "Balance Paid  :"
             Else
@@ -1734,7 +1744,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVBalance_VALUE.Count
         With lbl
-            .Location = New Point(100, 41)
+            .Location = New Point(100, 24)
             .Text = "0"
             .Name = "lblINVBalance_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
@@ -1829,7 +1839,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVTaxTotal_KEY.Count
         With lbl
-            .Location = New Point(21, 62)
+            .Location = New Point(21, 44)
             .Text = "Tax/ضريبة  :"
             .Name = "lblINVTaxTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
@@ -1842,7 +1852,7 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVTaxTotal_VALUE.Count
         With lbl
-            .Location = New Point(100, 62)
+            .Location = New Point(100, 44)
             .Text = ""
             .Name = "lblINVTaxTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
@@ -1852,6 +1862,24 @@ Public Class TransactionSlip
         End With
         Me.lblINVTaxTotal_VALUE.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
+
+        lbl = New Label
+        n = lblINVTaxTRN_KEY_VALUE.Count
+        With lbl
+            .Location = New Point(21, 64)
+            If Not rptLocationTaxTRN.Equals("") Then
+                .Text = "(Tax TRN : " & rptLocationTaxTRN & ")"
+            Else
+                .Text = ""
+            End If
+            .Name = "lblINVTaxTRN_KEY_VALUE" & n.ToString
+            .TextAlign = ContentAlignment.MiddleLeft
+            .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
+            .Size = New Size(180, 16)
+        End With
+        Me.lblINVTaxTRN_KEY_VALUE.Add(lbl)
+        Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
+
 
         pnl = New Panel
         n = pnlGrandTotalDetails.Count
