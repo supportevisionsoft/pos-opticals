@@ -161,7 +161,7 @@ Public Class LoginForm
             'POSCounterName = "OPTX2020"
             'POSCounterName = "ITTESTPC"
             'POSCounterName = "WAFIPC"
-            'POSCounterName = "GCITRIX"
+            POSCounterName = "GCITRIX"
             'POSCounterName = "ROBINSONSDFCPC"
             ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 

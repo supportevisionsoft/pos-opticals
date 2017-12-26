@@ -181,7 +181,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.CSRI_UOM_CODE as ItmUOM,"
             stQuery = stQuery + " a.CSRI_RATE as ItmPrice ,"
             stQuery = stQuery + " a.CSRI_QTY as ItmQty,"
-            stQuery = stQuery + " a.CSRI_FC_VAL as ItmAmt,"
+            'stQuery = stQuery + " a.CSRI_FC_VAL as ItmAmt,"
+            stQuery = stQuery & " a.CSRI_RATE * a.CSRI_QTY as ItmAmt, "
             stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
             stQuery = stQuery & " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,CSRH_SM_CODE as salesman,CSRH_FLEX_03 as pm_cust_no, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.CSRI_ITEM_CODE) as ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
             stQuery = stQuery + " nvl((SELECT ITED_FC_AMT from OT_CUST_SALE_RET_ITEM_TED where ITED_I_SYS_ID= a.CSRI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM  from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
@@ -436,7 +437,7 @@ Public Class TransactionSlip
             rptLocationAddr = ds.Tables("Table").Rows.Item(0).Item(4).ToString
             rptLocatinNameArabic = ds.Tables("Table").Rows.Item(0).Item(23).ToString
             rptLocatinAddrArabic = ds.Tables("Table").Rows.Item(0).Item(24).ToString
-            rptLocationTaxTRN = ds.Tables("Table").Rows.Item(0).Item(26).ToString
+            rptLocationTaxTRN = ds.Tables("Table").Rows.Item(0).Item(27).ToString
             rptLocationPhone = ds.Tables("Table").Rows.Item(0).Item(5).ToString
             rptLocationEmail = ds.Tables("Table").Rows.Item(0).Item(6).ToString
             Dim stSalesQuery As String = ""
@@ -671,7 +672,7 @@ Public Class TransactionSlip
             stQuery = stQuery + " case nvl(b.soH_FLEX_03,0) when '0' then (select cust_name from om_customer where cust_code = b.soh_cust_code)"
             stQuery = stQuery + " else (select PM_PATIENT_NAME from om_patient_master where pm_cust_code = b.soh_flex_03) end as CustName,"
             stQuery = stQuery + " b.soh_BILL_ADDR_LINE_1||' '||b.soh_BILL_ADDR_LINE_2||' '||b.soh_BILL_COUNTRY_CODE as billing_addr,b.soH_BILL_TEL as billing_phone, b.soh_BILL_EMAIL as billing_email, b.soh_SHIP_ADDR_LINE_1||' '||b.soh_SHIP_ADDR_LINE_2||' '||b.soh_SHIP_COUNTRY_CODE as shipping_addr,"
-            stQuery = stQuery + " a.soI_ITEM_CODE as ItemCode,a.soI_ITEM_DESC as ItemDesc,a.soI_UOM_CODE as ItmUOM,a.soI_PL_RATE as ItmPrice ,a.soI_QTY as ItmQty,a.soI_FC_VAL as ItmAmt,nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, "
+            stQuery = stQuery + " a.soI_ITEM_CODE as ItemCode,a.soI_ITEM_DESC as ItemDesc,a.soI_UOM_CODE as ItmUOM,a.soI_PL_RATE as ItmPrice ,a.soI_QTY as ItmQty,a.soI_PL_RATE * a.soI_QTY as ItmAmt,nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt, "
             stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,SOH_SM_CODE as salesman,SOH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.SOI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
             stQuery = stQuery & " nvl((select ITED_FC_AMT from OT_SO_ITEM_TED where ITED_I_SYS_ID= SOI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
             stQuery = stQuery & " c.LOCN_FLEX_11 as taxTRN "
@@ -967,7 +968,8 @@ Public Class TransactionSlip
             stQuery = stQuery + " a.INVI_UOM_CODE as ItmUOM,"
             stQuery = stQuery + " a.INVI_PL_RATE as ItmPrice ,"
             stQuery = stQuery + " a.INVI_QTY as ItmQty,"
-            stQuery = stQuery + " a.INVI_FC_VAL as ItmAmt,"
+            'stQuery = stQuery + " a.INVI_FC_VAL as ItmAmt,"
+            stQuery = stQuery + " (a.INVI_PL_RATE * a.INVI_QTY) as ItmAmt, "
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDDIS')),0) as disamt,"
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TEDEXP')),0) as expamt,INVH_SM_CODE as salesman,INVH_FLEX_03 as pmcustno, (select ITEM_BL_LONG_NAME_1 from om_item where ITEM_CODE=a.INVI_ITEM_CODE) as SOI_ITEM_NAME_ARABIC, c.LOCN_BL_NAME as locnArabicName, d.ADDR_LINE_4||' '||d.ADDR_LINE_5 as locnArabicAddress, "
             stQuery = stQuery + " nvl((select ITED_FC_AMT from OT_INVOICE_ITEM_TED where ITED_I_SYS_ID=INVI_SYS_ID and ITED_TED_TYPE_NUM=(select TED_TAX_DISC_EXP_NUM from OM_TED_TYPE where TED_TYPE_CODE='TAX')),0) as taxamt, "
