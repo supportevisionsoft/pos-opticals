@@ -23,7 +23,8 @@
         If taxCode.Equals("") Then
             Return taxPercentage
         End If
-        stQuery = "select TR_TAX_PERC from OM_TAX_RATE where TR_TAX_CODE='" & taxCode & "' and TR_EFF_FM_DT <= sysdate  and TR_EFF_TO_DT >= sysdate "
+        'stQuery = "select TR_TAX_PERC from OM_TAX_RATE where TR_TAX_CODE='" & taxCode & "' and TR_EFF_FM_DT <= sysdate  and TR_EFF_TO_DT >= sysdate "
+        stQuery = "select TR_TAX_PERC from OM_TAX_RATE where TR_TAX_CODE='" & taxCode & "' and TR_EFF_FM_DT <= sysdate  and TO_DATE(TO_CHAR(TR_EFF_TO_DT, 'DD/MM/YYYY') || ' 23:59:59', 'DD/MM/YYYY HH24:MI:SS') >= sysdate"
         ds = db.SelectFromTableODBC(stQuery)
         Dim count As Integer = 0
         count = ds.Tables("Table").Rows.Count
