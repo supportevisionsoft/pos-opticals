@@ -141,7 +141,6 @@ Public Class LoginForm
                 End
             End If
 
-
             Select Case Environment.GetEnvironmentVariable("SessionName").ToUpper.Substring(0, 3)
                 Case "ICA"
                     'MsgBox(System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process))
