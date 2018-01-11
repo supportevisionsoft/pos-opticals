@@ -8,6 +8,7 @@ Public Class frmStockReport
     Dim Newdate As String
     Dim stQuery As String
     Dim itemlist, conditionst As String
+    Dim allLocation As Boolean = False
     Dim groupval As String = ""
     Dim test As Integer
     Dim strArrLocfrom As Array
@@ -153,6 +154,7 @@ Public Class frmStockReport
         itemlist = ""
         conditionst = ""
         groupval = ""
+        allLocation = False
         listProduct.Items.Clear()
         lblNoList.Show()
         'lblNoList.Image = My.Resources.loading
@@ -166,6 +168,9 @@ Public Class frmStockReport
         Else
             If Not cbLocationfrom.Text = "All" Then
                 conditionst = " and lcs_locn_code = '" + strArrLocto(0) + "'"
+                allLocation = False
+            Else
+                allLocation = True
             End If
         End If
 
@@ -243,7 +248,11 @@ Public Class frmStockReport
                 i = i + 1
             End While
 
-            stQuery = "SELECT om_item.item_code Item_Code, om_item.item_name Item_Description, A.item_bar_code Item_Bar_Code,locn_name Location_Name, om_item.item_uom_code UOM_Code, lcs_grade_code_1 GradeCode_1, lcs_grade_code_2  GradeCode_2, A.item_pli_pl_code  AS PL_Code, A.item_price_type_1 AS PRICE1, A.item_price_type_2  AS PRICE2, lcs_stk_qty_bu Conf_Stock_Qty, lcs_rcvd_qty_bu Unconf_Rec_Qty, lcs_issd_qty_bu UnConf_Iss_Qty, lcs_hold_qty_bu Hold_Qty, lcs_reject_qty_bu Rejected_Qty, lcs_overres_qty_bu OverReserve_Qty, lcs_pick_qty_bu  Pick_Qty,  lcs_pack_qty_bu  Pack_Qty, ( ( lcs_stk_qty_bu + lcs_rcvd_qty_bu ) - ( lcs_issd_qty_bu + lcs_hold_qty_bu + lcs_reject_qty_bu +  lcs_overres_qty_bu + lcs_pick_qty_bu + lcs_pack_qty_bu)) AS Avail_Stock_Qty, lcs_resv_qty_bu Reserve_Qty,((lcs_stk_qty_bu + lcs_rcvd_qty_bu ) - (lcs_issd_qty_bu + lcs_hold_qty_bu + lcs_reject_qty_bu + lcs_overres_qty_bu + lcs_pick_qty_bu + lcs_pack_qty_bu ) - lcs_resv_qty_bu ) Free_Stock_Qty,  om_item.ITEM_ANLY_CODE_01, om_item.ITEM_ANLY_CODE_02 FROM   os_locn_curr_stk, om_item, om_pos_item A,  crm_om_location WHERE  om_item.item_code = A.item_code  AND om_item.item_code = lcs_item_code  AND om_item.item_frz_flag_num = 2  AND lcs_comp_code = '001'  AND lcs_locn_code = locn_code  " & conditionst & "  AND item_pli_pl_code = '" + plcode + "' " + itemlist + groupval + " GROUP  BY om_item.item_code,  om_item.item_name, A.item_bar_code,  locn_name,  om_item.item_uom_code,  lcs_grade_code_1,  lcs_grade_code_2,  A.item_pli_pl_code,  A.item_price_type_1,  A.item_price_type_2,  lcs_stk_qty_bu,  lcs_rcvd_qty_bu,  lcs_issd_qty_bu,  lcs_hold_qty_bu,  lcs_reject_qty_bu,  lcs_overres_qty_bu,  lcs_pick_qty_bu,  lcs_pack_qty_bu,  lcs_resv_qty_bu,  om_item.item_anly_code_01,  om_item.item_anly_code_02 HAVING SUM(( ( lcs_stk_qty_bu + lcs_rcvd_qty_bu ) -  ( lcs_issd_qty_bu + lcs_hold_qty_bu  + lcs_reject_qty_bu +  lcs_overres_qty_bu  + lcs_pick_qty_bu +  lcs_pack_qty_bu )  - lcs_resv_qty_bu )) > 0 ORDER  BY locn_name"
+            If allLocation Then
+                stQuery = "SELECT om_item.item_code Item_Code, om_item.item_name Item_Description, A.item_bar_code Item_Bar_Code,locn_name Location_Name, om_item.item_uom_code UOM_Code, lcs_grade_code_1 GradeCode_1, lcs_grade_code_2  GradeCode_2, A.item_pli_pl_code  AS PL_Code, A.item_price_type_1 AS PRICE1, A.item_price_type_2  AS PRICE2, lcs_stk_qty_bu Conf_Stock_Qty, lcs_rcvd_qty_bu Unconf_Rec_Qty, lcs_issd_qty_bu UnConf_Iss_Qty, lcs_hold_qty_bu Hold_Qty, lcs_reject_qty_bu Rejected_Qty, lcs_overres_qty_bu OverReserve_Qty, lcs_pick_qty_bu  Pick_Qty,  lcs_pack_qty_bu  Pack_Qty, ( ( lcs_stk_qty_bu + lcs_rcvd_qty_bu ) - ( lcs_issd_qty_bu + lcs_hold_qty_bu + lcs_reject_qty_bu +  lcs_overres_qty_bu + lcs_pick_qty_bu + lcs_pack_qty_bu)) AS Avail_Stock_Qty, lcs_resv_qty_bu Reserve_Qty,((lcs_stk_qty_bu + lcs_rcvd_qty_bu ) - (lcs_issd_qty_bu + lcs_hold_qty_bu + lcs_reject_qty_bu + lcs_overres_qty_bu + lcs_pick_qty_bu + lcs_pack_qty_bu ) - lcs_resv_qty_bu ) Free_Stock_Qty,  om_item.ITEM_ANLY_CODE_01, om_item.ITEM_ANLY_CODE_02 FROM   os_locn_curr_stk, om_item, om_pos_item A,  crm_om_location WHERE  om_item.item_code = A.item_code  AND om_item.item_code = lcs_item_code  AND om_item.item_frz_flag_num = 2  AND lcs_comp_code = '001'  AND lcs_locn_code = locn_code  " & conditionst & itemlist + groupval + " GROUP  BY om_item.item_code,  om_item.item_name, A.item_bar_code,  locn_name,  om_item.item_uom_code,  lcs_grade_code_1,  lcs_grade_code_2,  A.item_pli_pl_code,  A.item_price_type_1,  A.item_price_type_2,  lcs_stk_qty_bu,  lcs_rcvd_qty_bu,  lcs_issd_qty_bu,  lcs_hold_qty_bu,  lcs_reject_qty_bu,  lcs_overres_qty_bu,  lcs_pick_qty_bu,  lcs_pack_qty_bu,  lcs_resv_qty_bu,  om_item.item_anly_code_01,  om_item.item_anly_code_02 HAVING SUM(( ( lcs_stk_qty_bu + lcs_rcvd_qty_bu ) -  ( lcs_issd_qty_bu + lcs_hold_qty_bu  + lcs_reject_qty_bu +  lcs_overres_qty_bu  + lcs_pick_qty_bu +  lcs_pack_qty_bu )  - lcs_resv_qty_bu )) > 0 ORDER  BY locn_name"
+            Else
+                stQuery = "SELECT om_item.item_code Item_Code, om_item.item_name Item_Description, A.item_bar_code Item_Bar_Code,locn_name Location_Name, om_item.item_uom_code UOM_Code, lcs_grade_code_1 GradeCode_1, lcs_grade_code_2  GradeCode_2, A.item_pli_pl_code  AS PL_Code, A.item_price_type_1 AS PRICE1, A.item_price_type_2  AS PRICE2, lcs_stk_qty_bu Conf_Stock_Qty, lcs_rcvd_qty_bu Unconf_Rec_Qty, lcs_issd_qty_bu UnConf_Iss_Qty, lcs_hold_qty_bu Hold_Qty, lcs_reject_qty_bu Rejected_Qty, lcs_overres_qty_bu OverReserve_Qty, lcs_pick_qty_bu  Pick_Qty,  lcs_pack_qty_bu  Pack_Qty, ( ( lcs_stk_qty_bu + lcs_rcvd_qty_bu ) - ( lcs_issd_qty_bu + lcs_hold_qty_bu + lcs_reject_qty_bu +  lcs_overres_qty_bu + lcs_pick_qty_bu + lcs_pack_qty_bu)) AS Avail_Stock_Qty, lcs_resv_qty_bu Reserve_Qty,((lcs_stk_qty_bu + lcs_rcvd_qty_bu ) - (lcs_issd_qty_bu + lcs_hold_qty_bu + lcs_reject_qty_bu + lcs_overres_qty_bu + lcs_pick_qty_bu + lcs_pack_qty_bu ) - lcs_resv_qty_bu ) Free_Stock_Qty,  om_item.ITEM_ANLY_CODE_01, om_item.ITEM_ANLY_CODE_02 FROM   os_locn_curr_stk, om_item, om_pos_item A,  crm_om_location WHERE  om_item.item_code = A.item_code  AND om_item.item_code = lcs_item_code  AND om_item.item_frz_flag_num = 2  AND lcs_comp_code = '001'  AND lcs_locn_code = locn_code  " & conditionst & "  AND item_pli_pl_code = '" + plcode + "' " + itemlist + groupval + " GROUP  BY om_item.item_code,  om_item.item_name, A.item_bar_code,  locn_name,  om_item.item_uom_code,  lcs_grade_code_1,  lcs_grade_code_2,  A.item_pli_pl_code,  A.item_price_type_1,  A.item_price_type_2,  lcs_stk_qty_bu,  lcs_rcvd_qty_bu,  lcs_issd_qty_bu,  lcs_hold_qty_bu,  lcs_reject_qty_bu,  lcs_overres_qty_bu,  lcs_pick_qty_bu,  lcs_pack_qty_bu,  lcs_resv_qty_bu,  om_item.item_anly_code_01,  om_item.item_anly_code_02 HAVING SUM(( ( lcs_stk_qty_bu + lcs_rcvd_qty_bu ) -  ( lcs_issd_qty_bu + lcs_hold_qty_bu  + lcs_reject_qty_bu +  lcs_overres_qty_bu  + lcs_pick_qty_bu +  lcs_pack_qty_bu )  - lcs_resv_qty_bu )) > 0 ORDER  BY locn_name"
+            End If
             errLog.WriteToErrorLog("Stock Query", stQuery, "")
             ds = db.SelectFromTableODBC(stQuery)
             dt = ds.Tables("Table")
@@ -253,40 +262,45 @@ Public Class frmStockReport
         End Try
     End Sub
     Public Sub datalist()
-        If Count <> 0 Then
-            Dim i As Integer
-            For i = 0 To ds.Tables("Table").Rows.Count - 1
-                listProduct.Items.Add(i + 1)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(0).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(1).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(2).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(3).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(4).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(5).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(6).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(7).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(8).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(9).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(10).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(11).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(12).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(13).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(14).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(15).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(16).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(17).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(18).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(19).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(20).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(21).ToString)
-                listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(22).ToString)
-            Next
-            lblNoList.Hide()
-            butAddExcel.Enabled = True
-        Else
-            lblNoList.Text = "No Records Found"
+        Try
+            If Count <> 0 Then
+                Dim i As Integer
+                For i = 0 To ds.Tables("Table").Rows.Count - 1
+                    listProduct.Items.Add(i + 1)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(0).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(1).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(2).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(3).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(4).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(5).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(6).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(7).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(8).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(9).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(10).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(11).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(12).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(13).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(14).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(15).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(16).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(17).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(18).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(19).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(20).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(21).ToString)
+                    listProduct.Items(i).SubItems.Add(dt.Rows(i).Item(22).ToString)
+                Next
+                lblNoList.Hide()
+                butAddExcel.Enabled = True
+            Else
+                lblNoList.Text = "No Records Found"
+                lblNoList.Image = Nothing
+            End If
+        Catch ex As Exception
+            lblNoList.Text = "Exception occured! Unable to load huge data"
             lblNoList.Image = Nothing
-        End If
+        End Try
     End Sub
 
 
