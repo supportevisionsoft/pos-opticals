@@ -112,9 +112,9 @@ Partial Class LoginForm
         Me.Label6.ForeColor = System.Drawing.Color.MidnightBlue
         Me.Label6.Location = New System.Drawing.Point(10, 183)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(85, 14)
+        Me.Label6.Size = New System.Drawing.Size(86, 14)
         Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Version: 7.1.11"
+        Me.Label6.Text = "Version: 7.1.16"
         '
         'butLoginCancel
         '

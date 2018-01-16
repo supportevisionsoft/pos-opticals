@@ -143,7 +143,7 @@ Public Class LoginForm
 
             Select Case Environment.GetEnvironmentVariable("SessionName").ToUpper.Substring(0, 3)
                 Case "ICA"
-                    'MsgBox(System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process))
+                    MsgBox(System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process))
                     POSCounterName = System.Environment.GetEnvironmentVariable("CLIENTNAME", EnvironmentVariableTarget.Process)
                     POSCounterIPAddress = ""
                 Case "RDP"

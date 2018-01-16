@@ -1336,13 +1336,13 @@ Public Class TransactionSlip
         With lbl
             .Location = New Point(150, 0)
             If TXN_TYPE = "Invoice" Then
-                .Text = "Direct Invoice/الفاتورة المباشرة"
+                .Text = "TAX Invoice/فاتورة ضريبية"
             ElseIf TXN_TYPE = "Sales Order" Then
                 .Text = "Sales Order/طلب المبيعات"
             ElseIf TXN_TYPE = "Sales Invoice" Then
-                .Text = "Sales Invoice/فاتورة المبيعات"
+                .Text = "TAX Invoice/فاتورة ضريبية"
             ElseIf TXN_TYPE = "Sales Return" Then
-                .Text = "Sales Return/مبيعاتإرجاع"
+                .Text = "TAX CREDIT NOTE/أعادة قيمة الضريبة"
             End If
             .ForeColor = Color.White
             .Name = "lblTxnTypeDecl" & n.ToString
@@ -1843,7 +1843,7 @@ Public Class TransactionSlip
         n = lblINVTaxTotal_KEY.Count
         With lbl
             .Location = New Point(21, 44)
-            .Text = "Tax/ضريبة  :"
+            .Text = "5% Tax/ضريبة  :"
             .Name = "lblINVTaxTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
