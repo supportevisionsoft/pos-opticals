@@ -114,7 +114,7 @@ Partial Class LoginForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(86, 14)
         Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Version: 7.1.16"
+        Me.Label6.Text = "Version: 7.1.29"
         '
         'butLoginCancel
         '

@@ -57,6 +57,7 @@ Public Class TransactionSlip
     Private lblLocnAddr As New List(Of Label)
     Private lblLocnPhone As New List(Of Label)
     Private lblLocnEmail As New List(Of Label)
+    Private lblLocnTRN As New List(Of Label)
     Private pnlTxnTypeDecl As New List(Of Panel)
     Private lblTxnTypeDecl As New List(Of Label)
     Private pnlInvDetails As New List(Of Panel)
@@ -95,6 +96,8 @@ Public Class TransactionSlip
     Private lblINVDisTotal_VALUE As New List(Of Label)
     Private lblINVTaxTotal_KEY As New List(Of Label)
     Private lblINVTaxTotal_VALUE As New List(Of Label)
+    Private lblINVTotalBeforeTax_KEY As New List(Of Label)
+    Private lblINVTotalBeforeTax_VALUE As New List(Of Label)
     Private lblINVTaxTRN_KEY_VALUE As New List(Of Label)
 
     Private lblRptSNOHeader As New List(Of Label)
@@ -243,9 +246,9 @@ Public Class TransactionSlip
                 Dim n As Integer
                 n = pnlRows.Count
                 With pnl
-                    .Location = New Point(0, itemlines * 59)
+                    .Location = New Point(0, itemlines * 54)
                     .Name = "pnlRows" & n.ToString
-                    .Size = New Size(519, 59)
+                    .Size = New Size(519, 54)
                     '.BorderStyle = BorderStyle.FixedSingle
                 End With
                 Me.pnlRows.Add(pnl)
@@ -385,6 +388,7 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVDisTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalDiscountamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVExpTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalExpenseamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
+            Me.Controls.Find("lblINVTotalBeforeTax_VALUE" & currentPageNumber, True)(0).Text = Round(((subtotalamt + totalExpenseamt) - totalDiscountamt) - totalTaxAmount, 3).ToString("0.000")
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round((subtotalamt + totalExpenseamt) - totalDiscountamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
 
@@ -479,9 +483,9 @@ Public Class TransactionSlip
                 Dim n As Integer
                 n = pnlRows.Count
                 With pnl
-                    .Location = New Point(0, itemlines * 59)
+                    .Location = New Point(0, itemlines * 54)
                     .Name = "pnlRows" & n.ToString
-                    .Size = New Size(519, 59)
+                    .Size = New Size(519, 54)
                     '.BorderStyle = BorderStyle.FixedSingle
                 End With
                 Me.pnlRows.Add(pnl)
@@ -623,6 +627,7 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
             Dim grandtotal As Double = 0
             grandtotal = (subtotalamt + totalExpenseamt) - totalDiscountamt
+            Me.Controls.Find("lblINVTotalBeforeTax_VALUE" & currentPageNumber, True)(0).Text = Round(grandtotal - totalTaxAmount, 3).ToString("0.000")
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round(grandtotal, 3).ToString("0.000")
             Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
 
@@ -731,9 +736,9 @@ Public Class TransactionSlip
                 Dim n As Integer
                 n = pnlRows.Count
                 With pnl
-                    .Location = New Point(0, itemlines * 57)
+                    .Location = New Point(0, itemlines * 54)
                     .Name = "pnlRows" & n.ToString
-                    .Size = New Size(519, 57)
+                    .Size = New Size(519, 54)
                     '.BorderStyle = BorderStyle.FixedSingle
                 End With
                 Me.pnlRows.Add(pnl)
@@ -875,6 +880,7 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
             Dim grandtotal As Double = 0
             grandtotal = (subtotalamt + totalExpenseamt) - totalDiscountamt
+            Me.Controls.Find("lblINVTotalBeforeTax_VALUE" & currentPageNumber, True)(0).Text = Round(grandtotal - totalTaxAmount, 3).ToString("0.000")
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round(grandtotal, 3).ToString("0.000")
             Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
 
@@ -1036,9 +1042,9 @@ Public Class TransactionSlip
                 Dim n As Integer
                 n = pnlRows.Count
                 With pnl
-                    .Location = New Point(0, itemlines * 59)
+                    .Location = New Point(0, itemlines * 54)
                     .Name = "pnlRows" & n.ToString
-                    .Size = New Size(519, 59)
+                    .Size = New Size(519, 54)
                     '.BorderStyle = BorderStyle.FixedSingle
                 End With
                 Me.pnlRows.Add(pnl)
@@ -1180,6 +1186,7 @@ Public Class TransactionSlip
             Me.Controls.Find("lblINVSubTotal_VALUE" & currentPageNumber, True)(0).Text = Round(subtotalamt, 3).ToString("0.000")
             Me.Controls.Find("lblINVTaxTotal_VALUE" & currentPageNumber, True)(0).Text = Round(totalTaxAmount, 3).ToString("0.000")
             'Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text = taxPercentageValue & "% " & Me.Controls.Find("lblINVTaxTotal_KEY" & currentPageNumber, True)(0).Text
+            Me.Controls.Find("lblINVTotalBeforeTax_VALUE" & currentPageNumber, True)(0).Text = Round(((subtotalamt + totalExpenseamt) - totalDiscountamt) - totalTaxAmount, 3).ToString("0.000")
             Me.Controls.Find("lblRptGrandTotal_VALUE" & currentPageNumber, True)(0).Text = Round((subtotalamt + totalExpenseamt) - totalDiscountamt, 3).ToString("0.000")
 
             CreationPageBottom()
@@ -1319,10 +1326,25 @@ Public Class TransactionSlip
         Me.lblLocnEmail.Add(lbl)
         Me.Controls.Find(currentPage, True)(0).Controls.Add(lbl)
 
+        lbl = New Label
+        n = lblLocnTRN.Count
+        With lbl
+            .Location = New Point(138, 147)
+            .Name = "lblLocnTRN" & n.ToString
+            .Size = New Size(504, 17)
+            .AutoSize = False
+            .TextAlign = ContentAlignment.MiddleCenter
+            If Not rptLocationEmail = "" Then
+                .Text = "TRN : " & rptLocationTaxTRN
+            End If
+        End With
+        Me.lblLocnTRN.Add(lbl)
+        Me.Controls.Find(currentPage, True)(0).Controls.Add(lbl)
+
         pnl = New Panel
         n = pnlTxnTypeDecl.Count
         With pnl
-            .Location = New Point(130, 148)
+            .Location = New Point(130, 168)
             .Size = New Size(522, 18)
             .BorderStyle = BorderStyle.FixedSingle
             .BackColor = Color.Silver
@@ -1356,7 +1378,7 @@ Public Class TransactionSlip
         pnl = New Panel
         n = pnlInvDetails.Count
         With pnl
-            .Location = New Point(130, 168)
+            .Location = New Point(130, 188)
             .Size = New Size(522, 48)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlInvDetails" & n.ToString
@@ -1487,7 +1509,7 @@ Public Class TransactionSlip
         pnl = New Panel
         n = pnlCustDetails.Count
         With pnl
-            .Location = New Point(130, 215)
+            .Location = New Point(130, 235)
             .Size = New Size(522, 48)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlCustDetails" & n.ToString
@@ -1576,8 +1598,8 @@ Public Class TransactionSlip
         pnl = New Panel
         n = pnlItemHeader.Count
         With pnl
-            .Location = New Point(130, 265)
-            .Size = New Size(522, 47)
+            .Location = New Point(130, 285)
+            .Size = New Size(522, 37)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlItemHeader" & n.ToString
         End With
@@ -1593,7 +1615,7 @@ Public Class TransactionSlip
             .Name = "lblRptSNOHeader" & n.ToString
             .TextAlign = ContentAlignment.MiddleCenter
             .Font = New Font("Arial Narrow", 7, FontStyle.Bold)
-            .Size = New Size(32, 45)
+            .Size = New Size(32, 35)
             .BorderStyle = BorderStyle.FixedSingle
         End With
         Me.lblRptSNOHeader.Add(lbl)
@@ -1608,7 +1630,7 @@ Public Class TransactionSlip
             .Name = "lblRptItemCodeHeader" & n.ToString
             .TextAlign = ContentAlignment.MiddleCenter
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(248, 45)
+            .Size = New Size(248, 35)
             .BorderStyle = BorderStyle.FixedSingle
         End With
         Me.lblRptItemCodeHeader.Add(lbl)
@@ -1623,7 +1645,7 @@ Public Class TransactionSlip
             .Name = "lblRptUOMHeader" & n.ToString
             .TextAlign = ContentAlignment.MiddleCenter
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(45, 45)
+            .Size = New Size(45, 35)
             .BorderStyle = BorderStyle.FixedSingle
         End With
         Me.lblRptUOMHeader.Add(lbl)
@@ -1638,7 +1660,7 @@ Public Class TransactionSlip
             .Name = "lblRptRateHeader" & n.ToString
             .TextAlign = ContentAlignment.MiddleCenter
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(60, 45)
+            .Size = New Size(60, 35)
             .BorderStyle = BorderStyle.FixedSingle
         End With
         Me.lblRptRateHeader.Add(lbl)
@@ -1653,7 +1675,7 @@ Public Class TransactionSlip
             .Name = "lblRptQtyHeader" & n.ToString
             .TextAlign = ContentAlignment.MiddleCenter
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(45, 45)
+            .Size = New Size(45, 35)
             .BorderStyle = BorderStyle.FixedSingle
         End With
         Me.lblRptQtyHeader.Add(lbl)
@@ -1668,7 +1690,7 @@ Public Class TransactionSlip
             .Name = "lblRptAmtHeader" & n.ToString
             .TextAlign = ContentAlignment.MiddleCenter
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(90, 45)
+            .Size = New Size(90, 35)
             .BorderStyle = BorderStyle.FixedSingle
         End With
         Me.lblRptAmtHeader.Add(lbl)
@@ -1677,8 +1699,8 @@ Public Class TransactionSlip
         pnl = New Panel
         n = pnlItemDetails.Count
         With pnl
-            .Location = New Point(130, 312)
-            .Size = New Size(522, 235)
+            .Location = New Point(130, 322)
+            .Size = New Size(522, 215)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlItemDetails" & n.ToString
             currentItemPanel = "pnlItemDetails" & n.ToString
@@ -1689,8 +1711,8 @@ Public Class TransactionSlip
         pnl = New Panel
         n = pnlTotalDetails.Count
         With pnl
-            .Location = New Point(130, 546)
-            .Size = New Size(522, 93)
+            .Location = New Point(130, 536)
+            .Size = New Size(522, 103)
             .BorderStyle = BorderStyle.FixedSingle
             .Name = "pnlTotalDetails" & n.ToString
         End With
@@ -1761,12 +1783,12 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVSubTotal_KEY.Count
         With lbl
-            .Location = New Point(305, 5)
+            .Location = New Point(225, 5)
             .Text = "Sub Total/المجموع الفرعي :"
             .Name = "lblINVSubTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(130, 16)
+            .Size = New Size(230, 16)
         End With
         Me.lblINVSubTotal_KEY.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
@@ -1774,12 +1796,12 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVSubTotal_VALUE.Count
         With lbl
-            .Location = New Point(419, 5)
+            .Location = New Point(439, 5)
             .Text = ""
             .Name = "lblINVSubTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
             .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
-            .Size = New Size(96, 16)
+            .Size = New Size(76, 16)
 
         End With
         Me.lblINVSubTotal_VALUE.Add(lbl)
@@ -1788,12 +1810,12 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVDisTotal_KEY.Count
         With lbl
-            .Location = New Point(305, 24)
+            .Location = New Point(225, 21)
             .Text = "Discount/خصم :"
             .Name = "lblINVDisTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
-            .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(100, 16)
+            .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
+            .Size = New Size(230, 16)
         End With
         Me.lblINVDisTotal_KEY.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
@@ -1801,12 +1823,12 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVDisTotal_VALUE.Count
         With lbl
-            .Location = New Point(419, 24)
+            .Location = New Point(439, 21)
             .Text = ""
             .Name = "lblINVDisTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
             .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
-            .Size = New Size(96, 16)
+            .Size = New Size(76, 16)
 
         End With
         Me.lblINVDisTotal_VALUE.Add(lbl)
@@ -1815,12 +1837,12 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVExpTotal_KEY.Count
         With lbl
-            .Location = New Point(305, 44)
+            .Location = New Point(225, 41)
             .Text = "Expense/مصروف  :"
             .Name = "lblINVExpTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
-            .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(100, 16)
+            .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
+            .Size = New Size(230, 16)
         End With
         Me.lblINVExpTotal_KEY.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
@@ -1828,26 +1850,54 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVExpTotal_VALUE.Count
         With lbl
-            .Location = New Point(419, 44)
+            .Location = New Point(439, 41)
             .Text = ""
             .Name = "lblINVExpTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
             .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
-            .Size = New Size(96, 16)
+            .Size = New Size(76, 16)
 
         End With
         Me.lblINVExpTotal_VALUE.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
 
         lbl = New Label
+        n = lblINVTotalBeforeTax_KEY.Count
+        With lbl
+            .Location = New Point(225, 61)
+            .Text = "Total before VAT/المجموع دون الضريبة:"
+            .Name = "lblINVTotalBeforeTax_KEY" & n.ToString
+            .TextAlign = ContentAlignment.MiddleLeft
+            .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
+            .Size = New Size(230, 16)
+            '.BorderStyle = BorderStyle.FixedSingle
+        End With
+        Me.lblINVTotalBeforeTax_KEY.Add(lbl)
+        Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
+
+        lbl = New Label
+        n = lblINVTotalBeforeTax_VALUE.Count
+        With lbl
+            .Location = New Point(439, 61)
+            .Text = ""
+            .Name = "lblINVTotalBeforeTax_VALUE" & n.ToString
+            .TextAlign = ContentAlignment.MiddleRight
+            .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
+            .Size = New Size(76, 16)
+            '.BorderStyle = BorderStyle.FixedSingle
+        End With
+        Me.lblINVTotalBeforeTax_VALUE.Add(lbl)
+        Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
+
+        lbl = New Label
         n = lblINVTaxTotal_KEY.Count
         With lbl
-            .Location = New Point(21, 44)
-            .Text = "5% Tax/ضريبة  :"
+            .Location = New Point(225, 81)
+            .Text = "5% VAT/ضريبة  :"
             .Name = "lblINVTaxTotal_KEY" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft
             .Font = New Font("Arial Narrow", 8, FontStyle.Bold)
-            .Size = New Size(100, 16)
+            .Size = New Size(230, 16)
         End With
         Me.lblINVTaxTotal_KEY.Add(lbl)
         Me.Controls.Find("pnlTotalDetails" & n.ToString, True)(0).Controls.Add(lbl)
@@ -1855,12 +1905,12 @@ Public Class TransactionSlip
         lbl = New Label
         n = lblINVTaxTotal_VALUE.Count
         With lbl
-            .Location = New Point(100, 44)
+            .Location = New Point(439, 81)
             .Text = ""
             .Name = "lblINVTaxTotal_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleRight
             .Font = New Font("Arial Narrow", 8, FontStyle.Regular)
-            .Size = New Size(80, 16)
+            .Size = New Size(76, 16)
 
         End With
         Me.lblINVTaxTotal_VALUE.Add(lbl)
@@ -1871,9 +1921,9 @@ Public Class TransactionSlip
         With lbl
             .Location = New Point(21, 64)
             If Not rptLocationTaxTRN.Equals("") Then
-                .Text = "(Tax TRN : " & rptLocationTaxTRN & ")"
+                '.Text = "(Tax TRN : " & rptLocationTaxTRN & ")"
             Else
-                .Text = ""
+                '.Text = ""
             End If
             .Name = "lblINVTaxTRN_KEY_VALUE" & n.ToString
             .TextAlign = ContentAlignment.MiddleLeft

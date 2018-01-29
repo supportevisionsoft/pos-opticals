@@ -1447,3 +1447,4 @@ C:\Athithyan Applications\Github\pos-opticals\Screen Resolution Project\obj\Debu
 C:\Athithyan Applications\Github\pos-opticals\Screen Resolution Project\obj\Debug\POS.exe
 C:\Athithyan Applications\Github\pos-opticals\Screen Resolution Project\obj\Debug\POS.xml
 C:\Athithyan Applications\Github\pos-opticals\Screen Resolution Project\obj\Debug\POS.pdb
+C:\Athithyan Applications\Github\pos-opticals\Screen Resolution Project\obj\Debug\POS.vbprojResolveAssemblyReference.cache
